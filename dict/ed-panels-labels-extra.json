@@ -1,0 +1,14 @@
+{
+  "files": {
+    "apps/desktop-gpui/src/editor_panels.rs": [
+      ["Titles", "标题"],
+      ["Callouts", "标注"],
+      ["Statements", "宣言"],
+      ["Code", "代码"],
+      ["All", "全部"],
+      ["Pauses the video while the text is shown, then resumes where it left off.", "显示文字时暂停视频，结束后从暂停处继续。"],
+      ["End · same as start", "结束 · 与开始相同"],
+      ["Enable \\\"Custom cursor capture (Studio)\\\" in Settings → General.", "请在「设置 → 通用」中开启 \\\"自定义光标捕捉（工作室）\\\"。"]
+    ]
+  }
+}

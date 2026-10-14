@@ -1,0 +1,25 @@
+# 构建产物与中间文件
+cap-build/
+target/
+*.exe
+*.msi
+
+# 汉化流水线中间产物
+scan_v*.txt
+scan_v*_summary.txt
+scan_v*_audit.txt
+scan_v*_annotated.txt
+edge-review.txt
+audit/
+coverage_miss.txt
+apply_report*.txt
+build*.log
+cap-zh-bak*/
+gh-repo/
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

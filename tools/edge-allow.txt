@@ -1,0 +1,27 @@
+recording started
+starting recording
+failed recording files preserved
+recording finished
+Hide Others
+Close Window
+Select All
+Enter Full Screen
+Copy
+Undo
+Redo
+Zoom
+Free
+Animated
+Still
+Shadow
+Cancelling...
+Text
+Studio
+Instant
+Display
+Window
+Camera
+File
+Path is not inside a recordings directory
+Invalid path
+Camera preview worker is unavailable

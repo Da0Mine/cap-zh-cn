@@ -1,0 +1,136 @@
+{
+  "files": {
+    "app_windows.rs": [
+      ["teleprompter window alpha", "提词器窗口透明度", 1723]
+    ],
+    "camera_blur.rs": [
+      ["camera blur preview initialized", "摄像头模糊预览已初始化", 242]
+    ],
+    "devices.rs": [
+      ["Mono", "单声道", 66],
+      ["Stereo", "立体声", 67]
+    ],
+    "diagnostics.rs": [
+      ["Studio", "工作室", 262],
+      ["Instant", "即时", 263]
+    ],
+    "editor_canvas.rs": [
+      ["Mask", "蒙版", 458],
+      ["Image", "图片", 460]
+    ],
+    "editor_color.rs": [
+      ["Strength", "强度", 345]
+    ],
+    "editor_crop.rs": [
+      ["Close", "关闭", 2425],
+      ["Size", "尺寸", 2545],
+      ["Position", "位置", 2563]
+    ],
+    "editor_export.rs": [
+      ["File", "文件", 59]
+    ],
+    "editor_sidebar.rs": [
+      ["Dark", "深色", 134],
+      ["Background", "背景", 273],
+      ["Audio", "音频", 275],
+      ["Keyboard", "键盘", 277],
+      ["Captions", "字幕", 278],
+      ["Image", "图片", 314],
+      ["Color", "颜色", 315],
+      ["None", "无", 318],
+      ["Background", "背景", 2697],
+      ["Padding", "留白", 2613],
+      ["Squircle", "方圆形", 3429],
+      ["Rounded", "圆角", 3430],
+      ["Size", "尺寸", 3614],
+      ["Opacity", "不透明度", 3620],
+      ["Blur", "模糊", 3626]
+    ],
+    "editor_sidebar/cursor.rs": [
+      ["Circle", "圆形", 28],
+      ["Color", "颜色", 382],
+      ["Size", "尺寸", 396]
+    ],
+    "editor_sidebar/animated_gradient.rs": [
+      ["Delete", "删除", 941]
+    ],
+    "editor_timeline.rs": [
+      ["Default", "默认", 1520]
+    ],
+    "editor_window.rs": [
+      ["Auto", "自动", 6754],
+      ["Auto", "自动", 6767],
+      ["Delete", "删除", 9000],
+      ["Mute", "静音", 8120],
+      ["Captions", "字幕", 9395],
+      ["Audio", "音频", 11685]
+    ],
+    "editor_window/frame.rs": [
+      ["Light", "浅色", 559],
+      ["Dark", "深色", 560]
+    ],
+    "editor_window/scenes.rs": [
+      ["auto 3d picker", "自动 3D 拾取器", 240],
+      ["auto 3d scene", "自动 3D 场景", 248],
+      ["auto 3d shot", "自动 3D 镜头", 255],
+      ["unknown 3d action", "未知 3D 动作", 257]
+    ],
+    "library.rs": [
+      ["Path is not inside the screenshots directory", "路径不在截图目录内", 722],
+      ["Path is not inside the screenshots directory", "路径不在截图目录内", 733]
+    ],
+    "main_window.rs": [
+      ["Microphone", "麦克风", 595],
+      ["Screenshots", "截图", 3053],
+      ["Recordings", "录制文件", 3054],
+      ["Changelog", "更新日志", 3056],
+      ["Upload retry deferred", "上传重试已推迟", 4200],
+      ["On", "开", 6173],
+      ["Off", "关", 6174]
+    ],
+    "onboarding_window.rs": [
+      ["Save", "保存", 2343]
+    ],
+    "platform.rs": [
+      ["The clipboard file path is not valid Unicode", "剪贴板文件路径不是有效的 Unicode", 1726]
+    ],
+    "recording.rs": [
+      ["Unknown", "未知", 2537]
+    ],
+    "screenshot_annotations.rs": [
+      ["Color", "颜色", 2515],
+      ["Opacity", "不透明度", 2540],
+      ["Blur", "模糊", 2557],
+      ["Size", "尺寸", 2575]
+    ],
+    "screenshot_crop.rs": [
+      ["Size", "尺寸", 741]
+    ],
+    "screenshot_editor.rs": [
+      ["Wallpaper", "壁纸", 483],
+      ["Image", "图片", 484],
+      ["Gradient", "渐变", 486],
+      ["Delete", "删除", 2427]
+    ],
+    "settings_window.rs": [
+      ["Off", "关", 230],
+      ["3 seconds", "3 秒", 231],
+      ["5 seconds", "5 秒", 232],
+      ["10 seconds", "10 秒", 233],
+      ["Save", "保存", 3756]
+    ],
+    "store.rs": [
+      ["Unknown", "未知", 711]
+    ],
+    "target_overlay.rs": [
+      ["3 seconds", "3 秒", 136],
+      ["5 seconds", "5 秒", 137],
+      ["10 seconds", "10 秒", 138],
+      ["overlay key", "覆盖层键", 910]
+    ],
+    "target_thumbnails.rs": [
+      ["display thumbnail capture missed", "未捕获到显示器缩略图", 507],
+      ["window thumbnail capture missed", "未捕获到窗口缩略图", 550]
+    ]
+  }
+}

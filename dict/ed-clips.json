@@ -1,0 +1,132 @@
+{
+  "files": {
+    "apps/desktop-gpui/src/editor_clips.rs": [
+      [
+        "Clips",
+        "片段"
+      ],
+      [
+        "Back to editor",
+        "返回编辑器"
+      ],
+      [
+        "Record a new clip",
+        "录制新片段"
+      ],
+      [
+        "No clips yet",
+        "还没有片段"
+      ],
+      [
+        "Record or import a clip and it will show up here.",
+        "录制或导入一个片段，它会显示在这里。"
+      ],
+      [
+        "Existing recording",
+        "已有录制"
+      ],
+      [
+        "MP4 Video…",
+        "MP4 视频…"
+      ],
+      [
+        "MP4 Video",
+        "MP4 视频"
+      ],
+      [
+        "Import cancelled",
+        "导入已取消"
+      ],
+      [
+        "Instant mode recordings cannot be edited",
+        "即时模式的录制无法编辑"
+      ],
+      [
+        "Finish or recover this recording before importing a clip",
+        "请先完成或恢复此录制，再导入片段"
+      ],
+      [
+        "Imported video has no valid duration",
+        "导入的视频没有有效时长"
+      ],
+      [
+        "Recording metadata changed during import; the original project was retained",
+        "导入过程中录制元数据发生了变化；已保留原项目"
+      ],
+      [
+        "Missing project timeline",
+        "缺少项目时间线"
+      ],
+      [
+        "Import Error",
+        "导入错误"
+      ],
+      [
+        "Recording Error",
+        "录制错误"
+      ],
+      [
+        "Failed to normalize project recording segments",
+        "无法规范化项目录制片段"
+      ],
+      [
+        "Failed to prepare project timeline",
+        "无法准备项目时间线"
+      ],
+      [
+        "Imported segment parent must be a directory",
+        "导入片段的父级必须是一个目录"
+      ],
+      [
+        "No video stream found",
+        "未找到视频流"
+      ],
+      [
+        "Missing display video",
+        "缺少显示器视频"
+      ],
+      [
+        "Cannot import a recording into itself",
+        "无法将录制导入到它自身"
+      ],
+      [
+        "Select a Cap project folder",
+        "请选择一个 Cap 项目文件夹"
+      ],
+      [
+        "Instant recordings can't be imported into a project yet",
+        "即时录制暂时无法导入到项目中"
+      ],
+      [
+        "Source Cap project is still recording",
+        "源 Cap 项目仍在录制中"
+      ],
+      [
+        "Source Cap project has no recording segments",
+        "源 Cap 项目没有录制片段"
+      ],
+      [
+        "Source Cap project has no importable recording segments",
+        "源 Cap 项目没有可导入的录制片段"
+      ]
+    ],
+    "apps/desktop-gpui/src/editor_edits.rs": [
+      [
+        "No clip on that side",
+        "那一侧没有片段"
+      ],
+      [
+        "Different recording",
+        "不同的录制"
+      ],
+      [
+        "Footage was cut between them",
+        "两者之间的素材已被剪切"
+      ],
+      [
+        "Match the clip speeds first",
+        "请先匹配片段速度"
+      ]
+    ]
+  }
+}

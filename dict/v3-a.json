@@ -1,0 +1,632 @@
+{
+  "files": {
+    "app_windows.rs": [
+      [
+        "could not restore the main window",
+        "无法恢复主窗口"
+      ],
+      [
+        "could not show the X11 main window",
+        "无法显示 X11 主窗口"
+      ],
+      [
+        "could not hide the main window",
+        "无法隐藏主窗口"
+      ],
+      [
+        "could not hide the X11 main window",
+        "无法隐藏 X11 主窗口"
+      ],
+      [
+        "main window hidden",
+        "主窗口已隐藏"
+      ],
+      [
+        "dock reopen",
+        "程序坞重新打开"
+      ],
+      [
+        "could not focus the registered editor window",
+        "无法聚焦已注册的编辑器窗口"
+      ],
+      [
+        "settings window opened",
+        "设置窗口已打开"
+      ],
+      [
+        "installed settings window material",
+        "已安装设置窗口材质"
+      ],
+      [
+        "no native window material available for settings",
+        "设置窗口没有可用的原生窗口材质"
+      ],
+      [
+        "settings window closed",
+        "设置窗口已关闭"
+      ],
+      [
+        "mode select window opened",
+        "模式选择窗口已打开"
+      ],
+      [
+        "teleprompter window opened",
+        "提词器窗口已打开"
+      ],
+      [
+        "installed teleprompter window material",
+        "已安装提词器窗口材质"
+      ],
+      [
+        "no native window material available for the teleprompter",
+        "提词器没有可用的原生窗口材质"
+      ],
+      [
+        "teleprompter playback toggled",
+        "提词器播放已切换"
+      ],
+      [
+        "teleprompter content protection",
+        "提词器内容保护"
+      ],
+      [
+        "selected window could not be resolved",
+        "无法解析所选窗口"
+      ],
+      [
+        "editor picker dismissed",
+        "编辑器选择器已关闭"
+      ],
+      [
+        "picker dismissed",
+        "选择器已关闭"
+      ],
+      [
+        "recording area click-through failed; removing the outline",
+        "录制区域点击穿透失败；正在移除轮廓"
+      ],
+      [
+        "display has no logical bounds; overlay not opened",
+        "显示器没有逻辑边界；叠加层未打开"
+      ],
+      [
+        "could not match capture display to a Wayland output",
+        "无法将捕获显示器匹配到某个 Wayland 输出"
+      ],
+      [
+        "could not raise the camera above the target picker",
+        "无法将摄像头提升到目标选择器之上"
+      ],
+      [
+        "excluded Cap window has no native window id",
+        "被排除的 Cap 窗口没有原生窗口 ID"
+      ],
+      [
+        "excluded Cap window has no usable window id",
+        "被排除的 Cap 窗口没有可用的窗口 ID"
+      ],
+      [
+        "excluded Cap window is not visible to CGWindowList",
+        "被排除的 Cap 窗口对 CGWindowList 不可见"
+      ],
+      [
+        "skipping a hidden excluded Cap window",
+        "跳过隐藏的已排除 Cap 窗口"
+      ],
+      [
+        "excluded Cap window id already resolved",
+        "被排除的 Cap 窗口 ID 已解析"
+      ],
+      [
+        "excluding a Cap window from the capture",
+        "正在从捕获中排除一个 Cap 窗口"
+      ],
+      [
+        "content protection",
+        "内容保护"
+      ],
+      [
+        "Cap will hide its preview and controls. Any selected camera will appear at its preview position with the selected shape and effects. Keep the whole preview inside the capture area. Opening Cap will stop this Instant recording before showing its controls.",
+        "Cap 会隐藏其预览和控制项。所选摄像头会以选定的形状和效果出现在其预览位置。请将整个预览保持在捕获区域内。打开 Cap 会在显示其控制项之前停止本次即时录制。"
+      ],
+      [
+        "Cap will hide its camera preview and recording controls. Any selected camera will keep recording as a separate editable track.",
+        "Cap 会隐藏其摄像头预览和录制控制项。所选摄像头会继续作为独立可编辑的轨道进行录制。"
+      ],
+      [
+        "clean capture preflight failed",
+        "纯净捕获预检失败"
+      ],
+      [
+        "Unexpected retained visibility acknowledgement",
+        "意外的保留可见性确认"
+      ],
+      [
+        "Could not restore retained window visibility",
+        "无法恢复保留的窗口可见性"
+      ],
+      [
+        "Recording UI restoration or Stop cleanup is unconfirmed",
+        "录制 UI 恢复或停止清理未得到确认"
+      ],
+      [
+        "could not restore the camera preview",
+        "无法恢复摄像头预览"
+      ],
+      [
+        "excluding the teleprompter window from the capture",
+        "正在从捕获中排除提词器窗口"
+      ],
+      [
+        "could not update camera picker visibility",
+        "无法更新摄像头选择器可见性"
+      ],
+      [
+        "could not move the camera preview into the capture target",
+        "无法将摄像头预览移入捕获目标"
+      ],
+      [
+        "recording deletion is still settling; editor remains closed",
+        "录制删除仍在处理中；编辑器保持关闭"
+      ],
+      [
+        "editor already open for this project; focusing it",
+        "该项目的编辑器已打开；正在聚焦"
+      ],
+      [
+        "editor window opened",
+        "编辑器窗口已打开"
+      ],
+      [
+        "preparing editor shell created",
+        "已创建准备编辑器外壳"
+      ],
+      [
+        "preparing editor first frame cycle completed",
+        "准备编辑器首帧循环已完成"
+      ],
+      [
+        "shared wgpu device was lost; recreating",
+        "共享 wgpu 设备已丢失；正在重建"
+      ],
+      [
+        "shared wgpu device lost",
+        "共享 wgpu 设备丢失"
+      ],
+      [
+        "shared wgpu device ready",
+        "共享 wgpu 设备已就绪"
+      ],
+      [
+        "could not precreate shared wgpu device",
+        "无法预创建共享 wgpu 设备"
+      ],
+      [
+        "editor project validated",
+        "编辑器项目已验证"
+      ],
+      [
+        "editor instance ready",
+        "编辑器实例已就绪"
+      ],
+      [
+        "a rendered frame could not be converted for display",
+        "无法为显示转换已渲染的帧"
+      ],
+      [
+        "buffer-backed NV12 preview is unsupported",
+        "不支持基于缓冲区的 NV12 预览"
+      ],
+      [
+        "auto editor export requested",
+        "已请求自动编辑器导出"
+      ],
+      [
+        "editor timeline model",
+        "编辑器时间线模型"
+      ],
+      [
+        "editor waveforms ready",
+        "编辑器波形已就绪"
+      ],
+      [
+        "auto playback torture: start",
+        "自动播放压力测试：开始"
+      ],
+      [
+        "auto playback torture: cycle done",
+        "自动播放压力测试：循环完成"
+      ],
+      [
+        "auto playback torture: complete",
+        "自动播放压力测试：完成"
+      ],
+      [
+        "auto seek",
+        "自动跳转"
+      ],
+      [
+        "auto seek to recording time",
+        "自动跳转到录制时间点"
+      ],
+      [
+        "auto scrub-while-playing: start",
+        "自动拖动浏览（播放中）：开始"
+      ],
+      [
+        "auto scrub-while-playing: drag done",
+        "自动拖动浏览（播放中）：拖动完成"
+      ],
+      [
+        "auto playback focus",
+        "自动播放焦点"
+      ],
+      [
+        "auto playback: playing",
+        "自动播放：播放中"
+      ],
+      [
+        "auto playback: closing the editor mid-playback",
+        "自动播放：播放中途关闭编辑器"
+      ],
+      [
+        "auto playback: reopening the editor",
+        "自动播放：重新打开编辑器"
+      ],
+      [
+        "Closed preparing editor cleanup failed",
+        "已关闭的准备编辑器清理失败"
+      ],
+      [
+        "editor window closed",
+        "编辑器窗口已关闭"
+      ],
+      [
+        "audio reader settled with an error before deletion",
+        "删除前音频读取器以错误结束"
+      ],
+      [
+        "recording deletion failed",
+        "录制删除失败"
+      ],
+      [
+        "reloading editor after import",
+        "导入后正在重新加载编辑器"
+      ],
+      [
+        "editor window hidden for picker",
+        "编辑器窗口因选择器而隐藏"
+      ],
+      [
+        "editor content protection",
+        "编辑器内容保护"
+      ],
+      [
+        "editor recording finished but its editor window is gone; the capture stays in the library",
+        "编辑器录制已完成，但其编辑器窗口已不存在；该捕获仍保留在库中"
+      ],
+      [
+        "editor recording flow aborted before start",
+        "编辑器录制流程在开始前已中止"
+      ],
+      [
+        "not a screenshot bundle; not opening the editor",
+        "不是截图包；不打开编辑器"
+      ],
+      [
+        "screenshot editor already open for this bundle; focusing it",
+        "该截图包的编辑器已打开；正在聚焦"
+      ],
+      [
+        "screenshot editor window opened",
+        "截图编辑器窗口已打开"
+      ],
+      [
+        "screenshot editor window closed",
+        "截图编辑器窗口已关闭"
+      ]
+    ],
+    "single_instance.rs": [
+      [
+        "Could not acquire the Cap GPUI instance lock",
+        "无法获取 Cap GPUI 实例锁"
+      ],
+      [
+        "The Cap GPUI instance lock was initialized twice",
+        "Cap GPUI 实例锁被初始化了两次"
+      ],
+      [
+        "Could not publish the Cap GPUI instance pidfile",
+        "无法发布 Cap GPUI 实例 pidfile"
+      ],
+      [
+        "Requested the existing Cap GPUI controls",
+        "已请求现有 Cap GPUI 的控制"
+      ],
+      [
+        "Could not reopen Cap GPUI; the existing instance remains unchanged",
+        "无法重新打开 Cap GPUI；现有实例保持不变"
+      ],
+      [
+        "could not write the instance pidfile",
+        "无法写入实例 pidfile"
+      ],
+      [
+        "could not start Cap GPUI activation",
+        "无法启动 Cap GPUI 激活"
+      ],
+      [
+        "could not start Cap GPUI deep-link forwarding",
+        "无法启动 Cap GPUI 深链接转发"
+      ],
+      [
+        "The Cap GPUI instance lock is not a private file",
+        "Cap GPUI 实例锁不是私有文件"
+      ],
+      [
+        "The Cap GPUI instance lock changed",
+        "Cap GPUI 实例锁已变更"
+      ],
+      [
+        "Could not release the Cap GPUI instance lock",
+        "无法释放 Cap GPUI 实例锁"
+      ],
+      [
+        "Invalid Cap GPUI instance metadata",
+        "Cap GPUI 实例元数据无效"
+      ],
+      [
+        "Cap GPUI instance metadata changed",
+        "Cap GPUI 实例元数据已变更"
+      ],
+      [
+        "Invalid Cap GPUI instance metadata encoding",
+        "Cap GPUI 实例元数据编码无效"
+      ],
+      [
+        "Could not forward to Cap GPUI; the existing instance remains unchanged",
+        "无法转发到 Cap GPUI；现有实例保持不变"
+      ],
+      [
+        "Cap GPUI is still starting; the existing instance remains unchanged",
+        "Cap GPUI 仍在启动中；现有实例保持不变"
+      ],
+      [
+        "Too many forwarded Cap deep links",
+        "转发的 Cap 深链接过多"
+      ],
+      [
+        "The Cap GPUI instance changed before forwarding",
+        "转发前 Cap GPUI 实例已变更"
+      ],
+      [
+        "Cap GPUI endpoint is not private owner metadata",
+        "Cap GPUI 端点不是私有所有者元数据"
+      ],
+      [
+        "Cap GPUI endpoint changed",
+        "Cap GPUI 端点已变更"
+      ],
+      [
+        "Cap GPUI forwarding timed out",
+        "Cap GPUI 转发超时"
+      ],
+      [
+        "Cap GPUI closed its forwarding connection",
+        "Cap GPUI 关闭了其转发连接"
+      ],
+      [
+        "Cap GPUI did not acknowledge the reopen request",
+        "Cap GPUI 未确认重新打开请求"
+      ],
+      [
+        "Cap GPUI could not queue the reopen request",
+        "Cap GPUI 无法将重新打开请求加入队列"
+      ],
+      [
+        "Invalid instance process identity",
+        "实例进程标识无效"
+      ],
+      [
+        "The instance is no longer running",
+        "该实例已不再运行"
+      ],
+      [
+        "Invalid instance start identity",
+        "实例启动标识无效"
+      ],
+      [
+        "Invalid boot identity",
+        "启动标识无效"
+      ],
+      [
+        "The instance directory is missing",
+        "实例目录缺失"
+      ],
+      [
+        "Too many forwarded Cap action bytes",
+        "转发的 Cap 操作字节过多"
+      ],
+      [
+        "Invalid forwarded Cap action URL",
+        "转发的 Cap 操作 URL 无效"
+      ],
+      [
+        "Too many forwarded Cap actions",
+        "转发的 Cap 操作过多"
+      ],
+      [
+        "Invalid forwarded Cap action payload",
+        "转发的 Cap 操作负载无效"
+      ],
+      [
+        "The activation request belongs to another instance",
+        "该激活请求属于另一个实例"
+      ],
+      [
+        "The activation peer is not in this user session",
+        "激活对端不在此用户会话中"
+      ],
+      [
+        "The activation queue is busy",
+        "激活队列正忙"
+      ],
+      [
+        "The activation handler has closed",
+        "激活处理程序已关闭"
+      ],
+      [
+        "Rejected a Cap GPUI activation request",
+        "已拒绝一个 Cap GPUI 激活请求"
+      ],
+      [
+        "The activation owner changed",
+        "激活所有者已变更"
+      ],
+      [
+        "The activation socket belongs to another process",
+        "激活套接字属于另一个进程"
+      ],
+      [
+        "The activation owner did not acknowledge the request",
+        "激活所有者未确认该请求"
+      ],
+      [
+        "The activation request timed out",
+        "激活请求超时"
+      ],
+      [
+        "Cap controls remain hidden while recording is changing state or cannot pause",
+        "录制正在切换状态或无法暂停时，Cap 控制项保持隐藏"
+      ],
+      [
+        "could not acquire the Cap GPUI instance mutex",
+        "无法获取 Cap GPUI 实例互斥锁"
+      ],
+      [
+        "Cap GPUI is already running; bringing it forward",
+        "Cap GPUI 已在运行；正在将其带到前台"
+      ],
+      [
+        "could not reopen the running Cap GPUI",
+        "无法重新打开正在运行的 Cap GPUI"
+      ],
+      [
+        "the Cap GPUI instance mutex was initialized twice",
+        "Cap GPUI 实例互斥锁被初始化了两次"
+      ],
+      [
+        "could not acknowledge the Cap GPUI reopen request",
+        "无法确认 Cap GPUI 重新打开请求"
+      ],
+      [
+        "rejected a forwarded Cap deep link",
+        "已拒绝一个转发的 Cap 深链接"
+      ],
+      [
+        "could not accept a forwarded Cap deep link",
+        "无法接受转发的 Cap 深链接"
+      ],
+      [
+        "could not find the running Cap GPUI deep-link endpoint",
+        "找不到正在运行的 Cap GPUI 深链接端点"
+      ],
+      [
+        "could not forward a Cap deep link to the running instance",
+        "无法将 Cap 深链接转发到正在运行的实例"
+      ],
+      [
+        "the running Cap GPUI has no forwarding endpoint",
+        "正在运行的 Cap GPUI 没有转发端点"
+      ],
+      [
+        "incorrect forwarding secret",
+        "转发密钥不正确"
+      ],
+      [
+        "invalid forwarded deep-link size",
+        "转发的深链接大小无效"
+      ],
+      [
+        "invalid forwarded deep-link scheme",
+        "转发的深链接协议无效"
+      ],
+      [
+        "Instance fixture exited",
+        "实例测试夹具已退出"
+      ],
+      [
+        "Instance fixture timed out",
+        "实例测试夹具超时"
+      ],
+      [
+        "Unreadable PID must not activate",
+        "不可读的 PID 不得激活"
+      ],
+      [
+        "Forwarded URLs must not request reopening",
+        "转发的 URL 不得请求重新打开"
+      ],
+      [
+        "No incumbent should activate",
+        "现任实例不应激活"
+      ],
+      [
+        "Invalid metadata must not activate",
+        "无效的元数据不得激活"
+      ],
+      [
+        "Exited instance must not activate",
+        "已退出的实例不得激活"
+      ]
+    ],
+    "editor_tabs.rs": [
+      [
+        "the store refused the transcription model write",
+        "存储拒绝了转录模型写入"
+      ],
+      [
+        "the store refused the transcription language write",
+        "存储拒绝了转录语言写入"
+      ],
+      [
+        "Click \\\"Generate Keyboard Segments\\\" to create segments from recorded keyboard presses.",
+        "点击「生成键盘片段」，即可根据录制期间记录下的键盘按键生成片段。"
+      ],
+      [
+        "Keep Cap open while the model downloads. Editor reloads will reconnect automatically.",
+        "模型下载期间请保持 Cap 打开。编辑器重新加载后会自动重新连接。"
+      ],
+      [
+        "Parakeet caption models are unavailable on Intel Macs. Whisper models remain available.",
+        "Parakeet 字幕模型在 Intel 版 Mac 上不可用。Whisper 模型仍然可用。"
+      ],
+      [
+        "This is the first version of captions in Cap. Active word highlighting may be inaccurate in some situations. We're working on a fix for this and it will be released in upcoming versions.",
+        "这是 Cap 字幕功能的第一个版本。当前单词高亮在某些情况下可能不准确。我们正在修复此问题，并会在后续版本中发布。"
+      ],
+      [
+        "Fine-tune source offsets if audio or camera drifts out of sync with the screen recording.",
+        "如果音频或摄像头与屏幕录制不同步，请微调源偏移。"
+      ],
+      [
+        "Cap calculated these offsets automatically to keep audio in sync with the video. Adjust them if anything still sounds off.",
+        "Cap 会自动计算这些偏移，以使音频与视频保持同步。如果仍有声音不太对，请调整它们。"
+      ]
+    ],
+    "editor_sidebar/cursor.rs": [
+      [
+        "Strength",
+        "强度"
+      ],
+      [
+        "macOS Tahoe appearance. Custom cursors keep their recorded shape.",
+        "macOS Tahoe 外观。自定义光标会保留其录制时的形状。"
+      ],
+      [
+        "Duration",
+        "时长"
+      ]
+    ]
+  }
+}

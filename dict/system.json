@@ -1,0 +1,31 @@
+{
+  "files": {
+    "apps/desktop-gpui/src/deeplink.rs": [
+      ["Area width and height must be positive", "区域的宽度和高度必须为正数"],
+      ["The recording window is unavailable", "录制窗口不可用"],
+      ["Unable to open failed recording", "无法打开失败的录制"],
+      ["Recording in progress", "正在录制"]
+    ],
+    "apps/desktop-gpui/src/diagnostics.rs": [
+      ["A diagnostic is already running.", "已有诊断正在运行。"],
+      ["Starting the diagnostic...", "正在启动诊断..."],
+      ["Collecting system information...", "正在收集系统信息..."],
+      ["Wrapping up the sync test...", "正在结束同步测试..."],
+      ["Recording the studio test...", "正在录制工作室测试..."],
+      ["Analyzing the instant recording...", "正在分析即时录制内容..."],
+      ["The self-test produced no output stream", "自检未产生输出流"],
+      ["The diagnostic was cancelled.", "诊断已取消。"]
+    ],
+    "apps/desktop-gpui/src/installer.rs": [
+      ["Update downloads must use HTTPS", "更新下载必须使用 HTTPS"],
+      ["The update has no signature", "该更新没有签名"],
+      ["Invalid update key: {error}", "无效的更新密钥：{error}"],
+      ["update key", "更新密钥"],
+      ["The downloaded file is not a Cap package for this platform", "下载的文件不是适用于本平台的 Cap 安装包"],
+      ["The download stopped responding", "下载已停止响应"],
+      ["The download ended early", "下载提前结束"],
+      ["The app has no parent folder", "应用没有父目录"],
+      ["The update archive does not contain exactly one app", "更新包中必须恰好包含一个应用"]
+    ]
+  }
+}

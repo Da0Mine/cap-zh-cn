@@ -1,0 +1,51 @@
+{
+  "files": {
+    "apps/desktop-gpui/src/screenshot_editor.rs": [
+      ["Not a screenshot bundle", "不是截图包"],
+      ["Invalid export buffer rows", "导出缓冲区行无效"],
+      ["Corner Rounding", "圆角"],
+      ["The renderer stopped before the export finished", "导出完成前渲染器已停止"],
+      ["The screenshot renderer is not running", "截图渲染器未运行"],
+      ["Screenshot copied to clipboard!", "截图已复制到剪贴板！"],
+      ["Screenshot saved!", "截图已保存！"],
+      ["Share link copied to clipboard", "分享链接已复制到剪贴板"],
+      ["Preparing upload", "正在准备上传"],
+      ["Rendering screenshot", "正在渲染截图"],
+      ["Uploading screenshot", "正在上传截图"],
+      ["You need to sign in to create shareable links", "你需要登录才能创建分享链接"],
+      ["This feature requires an upgraded plan", "此功能需要升级套餐"],
+      ["Are you sure you want to delete this screenshot?", "确定要删除这张截图吗？"],
+      ["Open Folder", "打开文件夹"],
+      ["Create shareable link", "创建分享链接"],
+      ["Aspect Ratio", "宽高比"],
+      ["Crop Image", "裁剪图片"],
+      ["Copy to Clipboard", "复制到剪贴板"],
+      ["More Actions", "更多操作"],
+      ["Layers", "图层"],
+      ["Drag to reorder • Top = front", "拖动以重新排序 • 顶部 = 最前"],
+      ["Done", "完成"],
+      ["Click to select or drag and drop image", "点击选择，或将图片拖放到此处"],
+      ["Animated Gradient is rendered as a still image for screenshots. Choose another background to replace it.", "动态渐变在截图中会渲染为静态图片。请选择其他背景来替换。"],
+      ["Background Image", "背景图片"],
+      ["Background Blur", "背景模糊"],
+      ["CORNER STYLE", "圆角样式"],
+      ["Advanced shadow settings", "高级阴影设置"],
+      ["Border", "边框"],
+      ["Loading preview...", "正在加载预览…"],
+      ["Zoom Out", "缩小"],
+      ["Zoom In", "放大"]
+    ],
+    "apps/desktop-gpui/src/screenshot_annotations.rs": [
+      ["No layers yet", "还没有图层"],
+      ["Use the tools above to add annotations", "使用上方工具添加注释"]
+    ],
+    "apps/desktop-gpui/src/screenshot_crop.rs": [
+      ["Full", "全图"],
+      ["Reset", "重置"],
+      ["Loading frame…", "正在加载画面…"],
+      ["Save", "保存"]
+    ],
+    "apps/desktop-gpui/src/screenshot_export.rs": [],
+    "apps/desktop-gpui/src/screenshot.rs": []
+  }
+}

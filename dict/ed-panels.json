@@ -1,0 +1,410 @@
+{
+  "files": {
+    "apps/desktop-gpui/src/editor_panels.rs": [
+      [
+        "Extra Bold",
+        "特粗"
+      ],
+      [
+        "Slide up",
+        "上滑"
+      ],
+      [
+        "Slide down",
+        "下滑"
+      ],
+      [
+        "Slide left",
+        "左滑"
+      ],
+      [
+        "Slide right",
+        "右滑"
+      ],
+      [
+        "Lower thirds",
+        "下三分之一"
+      ],
+      [
+        "Lower third",
+        "下三分之一"
+      ],
+      [
+        "Introducing Cap",
+        "隆重介绍 Cap"
+      ],
+      [
+        "Ship faster",
+        "更快发布"
+      ],
+      [
+        "Chapter one",
+        "第一章"
+      ],
+      [
+        "Beautiful text",
+        "漂亮的文字"
+      ],
+      [
+        "Name tag",
+        "姓名标签"
+      ],
+      [
+        "Recorded with Cap",
+        "使用 Cap 录制"
+      ],
+      [
+        "New feature",
+        "新功能"
+      ],
+      [
+        "Pro tip",
+        "专业提示"
+      ],
+      [
+        "the important part",
+        "重点部分"
+      ],
+      [
+        "Glow up",
+        "焕然一新"
+      ],
+      [
+        "Big stat",
+        "大数字"
+      ],
+      [
+        "System Sans",
+        "系统无衬线字体"
+      ],
+      [
+        "System Mono",
+        "系统等宽字体"
+      ],
+      [
+        "Shows both screen and camera",
+        "同时显示屏幕和摄像头"
+      ],
+      [
+        "Camera Only",
+        "仅摄像头"
+      ],
+      [
+        "Shows only the camera feed",
+        "仅显示摄像头画面"
+      ],
+      [
+        "Hide Camera",
+        "隐藏摄像头"
+      ],
+      [
+        "Shows only the screen recording",
+        "仅显示屏幕录制"
+      ],
+      [
+        "Split Screen",
+        "分屏"
+      ],
+      [
+        "Screen and camera side by side (auto-stacks in portrait)",
+        "屏幕与摄像头并排显示（竖屏时自动上下堆叠）"
+      ],
+      [
+        "Screen and camera float side by side as rounded cards over the background",
+        "屏幕与摄像头以圆角卡片的形式并排悬浮在背景之上"
+      ],
+      [
+        "Focus size",
+        "焦点大小"
+      ],
+      [
+        "Ease in",
+        "缓入"
+      ],
+      [
+        "Ease out",
+        "缓出"
+      ],
+      [
+        "Low angle",
+        "低角度"
+      ],
+      [
+        "Close up",
+        "特写"
+      ],
+      [
+        "Glide across",
+        "横向掠过"
+      ],
+      [
+        "Drift down",
+        "向下漂移"
+      ],
+      [
+        "Rising sweep",
+        "上升扫掠"
+      ],
+      [
+        "Pull back",
+        "拉远"
+      ],
+      [
+        "Top down",
+        "俯视"
+      ],
+      [
+        "Tilt away",
+        "倾斜移开"
+      ],
+      [
+        "Slide by",
+        "滑过"
+      ],
+      [
+        "Product tour",
+        "产品导览"
+      ],
+      [
+        "Punch in",
+        "推近"
+      ],
+      [
+        "Tilt shift",
+        "移轴"
+      ],
+      [
+        "Still shot",
+        "静止镜头"
+      ],
+      [
+        "Custom move",
+        "自定义运镜"
+      ],
+      [
+        "Zoom Mode",
+        "缩放模式"
+      ],
+      [
+        "Zoom Amount",
+        "缩放量"
+      ],
+      [
+        "How does it work?",
+        "它是如何工作的？"
+      ],
+      [
+        "Manual zoom stays on a fixed spot you pick below.",
+        "手动缩放会停留在你在下方选定的固定位置。"
+      ],
+      [
+        "Automatic zoom follows your cursor around the screen.",
+        "自动缩放会跟随光标在屏幕上移动。"
+      ],
+      [
+        "Line height",
+        "行高"
+      ],
+      [
+        "Letter spacing",
+        "字间距"
+      ],
+      [
+        "Screen transition",
+        "屏幕过渡"
+      ],
+      [
+        "Fade Duration",
+        "淡入淡出时长"
+      ],
+      [
+        "to",
+        "至"
+      ],
+      [
+        "Duration",
+        "时长"
+      ],
+      [
+        "Tap to change track",
+        "点按以更换音轨"
+      ],
+      [
+        "Change",
+        "更换"
+      ],
+      [
+        "Enabled",
+        "启用"
+      ],
+      [
+        "Fade In",
+        "淡入"
+      ],
+      [
+        "Fade Out",
+        "淡出"
+      ],
+      [
+        "Pixel Size",
+        "像素大小"
+      ],
+      [
+        "Outside Darkness",
+        "外部暗度"
+      ],
+      [
+        "Done",
+        "完成"
+      ],
+      [
+        "Camera Layout",
+        "摄像头布局"
+      ],
+      [
+        "Screen Zoom",
+        "屏幕缩放"
+      ],
+      [
+        "Screen Position",
+        "屏幕位置"
+      ],
+      [
+        "Camera Zoom",
+        "摄像头缩放"
+      ],
+      [
+        "Camera Position",
+        "摄像头位置"
+      ],
+      [
+        "Drag to orbit",
+        "拖动以环绕"
+      ],
+      [
+        "Nothing to swap on a still shot",
+        "静止镜头无需交换"
+      ],
+      [
+        "Swap start and end",
+        "交换起点与终点"
+      ],
+      [
+        "Already a still shot",
+        "已是静止镜头"
+      ],
+      [
+        "Hold the opening pose for the whole shot",
+        "整段镜头保持起始姿态"
+      ],
+      [
+        "Auto scene",
+        "自动场景"
+      ],
+      [
+        "Rebuilds every 3D shot on the track",
+        "重建轨道上的每一个 3D 镜头"
+      ],
+      [
+        "Play shot",
+        "播放镜头"
+      ],
+      [
+        "Play this shot",
+        "播放此镜头"
+      ],
+      [
+        "Delete this shot",
+        "删除此镜头"
+      ],
+      [
+        "Camera",
+        "摄像头"
+      ],
+      [
+        "Flip horizontally",
+        "水平翻转"
+      ],
+      [
+        "Flip vertically",
+        "垂直翻转"
+      ],
+      [
+        "Depth blur",
+        "景深模糊"
+      ],
+      [
+        "Focus",
+        "焦点"
+      ],
+      [
+        "Fine-tune",
+        "微调"
+      ],
+      [
+        "Bokeh",
+        "散景"
+      ],
+      [
+        "Timing & advanced",
+        "时间与高级选项"
+      ],
+      [
+        "Motion style",
+        "运动风格"
+      ],
+      [
+        "Reset camera",
+        "重置摄像头"
+      ],
+      [
+        "Arrange on canvas",
+        "在画布上排列"
+      ],
+      [
+        "Drag the image to move it. Pull a corner to resize, or use the rotation control below to turn it.",
+        "拖动图片即可移动。拉动某个角可调整大小，或使用下方的旋转控件进行旋转。"
+      ],
+      [
+        "Center on canvas",
+        "在画布上居中"
+      ],
+      [
+        "Replace image",
+        "替换图片"
+      ],
+      [
+        "Image file is missing. Replace it to restore this segment while keeping its timing and transforms.",
+        "图片文件已丢失。替换它即可恢复此片段，同时保留其时长与变换。"
+      ],
+      [
+        "Lock aspect ratio",
+        "锁定宽高比"
+      ],
+      [
+        "Overrides apply only during this segment. Enable a group to copy its global settings.",
+        "覆盖仅在本片段内生效。启用某个分组即可复制其全局设置。"
+      ],
+      [
+        "Screen crop (source pixels)",
+        "屏幕裁剪（源像素）"
+      ],
+      [
+        "Reset crop",
+        "重置裁剪"
+      ],
+      [
+        "Camera Only background",
+        "仅摄像头背景"
+      ],
+      [
+        "Camera Only padding",
+        "仅摄像头留白"
+      ],
+      [
+        "Use a Camera Only scene. Padding reveals the background around the camera.",
+        "使用「仅摄像头」场景。留白会露出摄像头周围的背景。"
+      ]
+    ]
+  }
+}

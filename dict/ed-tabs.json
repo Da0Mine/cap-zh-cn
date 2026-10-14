@@ -1,0 +1,346 @@
+{
+  "files": {
+    "apps/desktop-gpui/src/editor_tabs.rs": [
+      [
+        "Light Blur",
+        "轻度模糊"
+      ],
+      [
+        "Heavy Blur",
+        "重度模糊"
+      ],
+      [
+        "Remove Background",
+        "移除背景"
+      ],
+      [
+        "Long, drifting movement",
+        "绵长、漂移的移动"
+      ],
+      [
+        "Soft, floaty movement",
+        "柔和、轻盈的移动"
+      ],
+      [
+        "Balanced, natural movement",
+        "均衡、自然的移动"
+      ],
+      [
+        "Snappy, close tracking",
+        "敏捷、紧密跟随"
+      ],
+      [
+        "Top Left",
+        "左上"
+      ],
+      [
+        "Top Center",
+        "上中"
+      ],
+      [
+        "Top Right",
+        "右上"
+      ],
+      [
+        "Bottom Left",
+        "左下"
+      ],
+      [
+        "Bottom Center",
+        "下中"
+      ],
+      [
+        "Bottom Right",
+        "右下"
+      ],
+      [
+        "Best balance for most recordings",
+        "适合大多数录制内容的最佳平衡"
+      ],
+      [
+        "High Accuracy",
+        "高精度"
+      ],
+      [
+        "Larger download, higher accuracy",
+        "下载体积更大，精度更高"
+      ],
+      [
+        "Smallest download",
+        "下载体积最小"
+      ],
+      [
+        "Slower, more accurate",
+        "速度较慢，精度更高"
+      ],
+      [
+        "Auto Detect",
+        "自动检测"
+      ],
+      [
+        "Clean text on a solid rounded background.",
+        "纯色圆角背景上的清晰文字。"
+      ],
+      [
+        "Words light up in sync with speech.",
+        "文字随语音同步点亮。"
+      ],
+      [
+        "Bold caps with a pill behind the active word.",
+        "粗体大写字母，当前单词后带胶囊底色。"
+      ],
+      [
+        "Playful caps that pop in with a vibrant accent.",
+        "活泼的大写字母，以鲜明强调色弹出。"
+      ],
+      [
+        "Subtle outlined text with no background.",
+        "无背景的淡描边文字。"
+      ],
+      [
+        "Hide Camera",
+        "隐藏摄像头"
+      ],
+      [
+        "Mirror Camera",
+        "镜像摄像头"
+      ],
+      [
+        "Size During Zoom",
+        "缩放时大小"
+      ],
+      [
+        "Keep original size during zoom",
+        "缩放时保持原始大小"
+      ],
+      [
+        "Rounded Corners",
+        "圆角"
+      ],
+      [
+        "Custom position (dragged on canvas)",
+        "自定义位置（在画布上拖拽）"
+      ],
+      [
+        "Reset",
+        "重置"
+      ],
+      [
+        "Corner Style",
+        "圆角样式"
+      ],
+      [
+        "Advanced shadow settings",
+        "高级阴影设置"
+      ],
+      [
+        "Audio Controls",
+        "音频控制"
+      ],
+      [
+        "Mute Audio",
+        "静音"
+      ],
+      [
+        "Microphone Stereo Mode",
+        "麦克风立体声模式"
+      ],
+      [
+        "Microphone Volume",
+        "麦克风音量"
+      ],
+      [
+        "System Audio Volume",
+        "系统音频音量"
+      ],
+      [
+        "Keep more of your original voice and room sound.",
+        "保留更多原始人声和房间声。"
+      ],
+      [
+        "Clearer isolation with natural voice detail.",
+        "更清晰的人声隔离，保留自然人声细节。"
+      ],
+      [
+        "More isolation for noisy spaces. May change voice texture.",
+        "为嘈杂环境提供更强的隔离。可能改变人声音色。"
+      ],
+      [
+        "Studio Sound",
+        "工作室音效"
+      ],
+      [
+        "Reduces background noise and balances your voice level.",
+        "降低背景噪音并平衡你的音量。"
+      ],
+      [
+        "Could not save the Studio Sound default",
+        "无法保存工作室音效默认设置"
+      ],
+      [
+        "Use for new recordings",
+        "用于新录制"
+      ],
+      [
+        "Show cursor",
+        "显示光标"
+      ],
+      [
+        "Cursor Style",
+        "光标样式"
+      ],
+      [
+        "Hide When Idle",
+        "闲置时隐藏"
+      ],
+      [
+        "Inactivity Delay",
+        "无操作延迟"
+      ],
+      [
+        "Cursor Movement Style",
+        "光标移动样式"
+      ],
+      [
+        "Smooth Movement",
+        "平滑移动"
+      ],
+      [
+        "High Quality SVG Cursors",
+        "高质量 SVG 光标"
+      ],
+      [
+        "The project timeline is unavailable.",
+        "项目时间线不可用。"
+      ],
+      [
+        "The project timeline could not be read.",
+        "无法读取项目时间线。"
+      ],
+      [
+        "The timeline or keyboard settings changed during generation. Try again.",
+        "生成过程中时间线或键盘设置发生了变化。请重试。"
+      ],
+      [
+        "No recorded keyboard presses were found.",
+        "未找到已录制的键盘按键。"
+      ],
+      [
+        "Font Settings",
+        "字体设置"
+      ],
+      [
+        "Font Family",
+        "字体"
+      ],
+      [
+        "Text Color",
+        "文字颜色"
+      ],
+      [
+        "Background Settings",
+        "背景设置"
+      ],
+      [
+        "Background Color",
+        "背景颜色"
+      ],
+      [
+        "Background Opacity",
+        "背景不透明度"
+      ],
+      [
+        "Font Weight",
+        "字重"
+      ],
+      [
+        "Fade Duration",
+        "淡入淡出时长"
+      ],
+      [
+        "Linger Duration",
+        "停留时长"
+      ],
+      [
+        "Grouping Threshold",
+        "分组阈值"
+      ],
+      [
+        "Show Modifiers",
+        "显示修饰键"
+      ],
+      [
+        "Show Special Keys",
+        "显示特殊按键"
+      ],
+      [
+        "Generating Keyboard Segments...",
+        "正在生成键盘片段..."
+      ],
+      [
+        "Regenerate Keyboard Segments",
+        "重新生成键盘片段"
+      ],
+      [
+        "Generate Keyboard Segments",
+        "生成键盘片段"
+      ],
+      [
+        "No keyboard segments yet.",
+        "暂无键盘片段。"
+      ],
+      [
+        "Show keyboard",
+        "显示键盘"
+      ],
+      [
+        "Regenerate Captions",
+        "重新生成字幕"
+      ],
+      [
+        "Generate Captions",
+        "生成字幕"
+      ],
+      [
+        "One time download to your system. All captions are stored locally.",
+        "一次性下载到你的系统。所有字幕都存储在本地。"
+      ],
+      [
+        "Active Word Highlight",
+        "当前单词高亮"
+      ],
+      [
+        "Highlight Style",
+        "高亮样式"
+      ],
+      [
+        "Animation Style",
+        "动画样式"
+      ],
+      [
+        "Highlight Color",
+        "高亮颜色"
+      ],
+      [
+        "Sync",
+        "同步"
+      ],
+      [
+        "System Audio Offset",
+        "系统音频偏移"
+      ],
+      [
+        "Microphone Offset",
+        "麦克风偏移"
+      ],
+      [
+        "Camera Offset",
+        "摄像头偏移"
+      ],
+      [
+        "Auto-synced",
+        "自动同步"
+      ]
+    ]
+  }
+}

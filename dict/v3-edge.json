@@ -1,0 +1,98 @@
+{
+  "files": {
+    "menus.rs": [
+      ["Hide Others", "隐藏其他"],
+      ["Close Window", "关闭窗口"],
+      ["Select All", "全选"],
+      ["Enter Full Screen", "进入全屏"],
+      ["Copy", "拷贝"],
+      ["Undo", "撤销"],
+      ["Redo", "重做"],
+      ["Zoom", "缩放"],
+      ["File", "文件"],
+      ["Window", "窗口"]
+    ],
+    "onboarding_window.rs": [
+      ["Copy", "拷贝"]
+    ],
+    "editor_window.rs": [
+      ["Undo", "撤销", 6733],
+      ["Redo", "重做", 6733]
+    ],
+    "editor_timeline.rs": [
+      ["Zoom", "缩放"],
+      ["Text", "文字", 726]
+    ],
+    "editor_crop.rs": [
+      ["Free", "自由"]
+    ],
+    "editor_sidebar.rs": [
+      ["Animated", "动态"],
+      ["Shadow", "阴影"],
+      ["Camera", "摄像头", 274],
+      ["Camera", "摄像头", 4337]
+    ],
+    "editor_sidebar/animated_gradient.rs": [
+      ["Still", "静止"]
+    ],
+    "screenshot_editor.rs": [
+      ["Shadow", "阴影"]
+    ],
+    "screenshot_annotations.rs": [
+      ["Text", "文字", 96],
+      ["Text", "文字", 147],
+      ["Text", "文字", 4205]
+    ],
+    "diagnostics.rs": [
+      ["Cancelling...", "正在取消…"]
+    ],
+    "library.rs": [
+      ["Studio", "工作室", 191],
+      ["Instant", "即时", 192],
+      ["Path is not inside a recordings directory", "路径不在录制目录内"],
+      ["Invalid path", "路径无效"]
+    ],
+    "recording.rs": [
+      ["Studio", "工作室", 2574],
+      ["Instant", "即时", 2575],
+      ["starting recording", "正在开始录制"]
+    ],
+    "settings_pages.rs": [
+      ["Studio", "工作室", 5048],
+      ["Instant", "即时", 5049],
+      ["Studio", "工作室", 6711]
+    ],
+    "settings_window.rs": [
+      ["Instant", "即时", 340],
+      ["Studio", "工作室", 341],
+      ["Studio", "工作室", 4874],
+      ["Instant", "即时", 4874]
+    ],
+    "tray/windows.rs": [
+      ["Studio", "工作室"]
+    ],
+    "main_window.rs": [
+      ["Display", "显示器", 381],
+      ["Window", "窗口", 382],
+      ["Camera", "摄像头", 54],
+      ["Camera", "摄像头", 594]
+    ],
+    "permissions.rs": [
+      ["Camera", "摄像头", 53]
+    ],
+    "editor_canvas.rs": [
+      ["Camera", "摄像头", 457]
+    ],
+    "deeplink.rs": [
+      ["Camera", "摄像头", 607]
+    ],
+    "session.rs": [
+      ["recording started", "录制已开始"],
+      ["failed recording files preserved", "失败的录制文件已保留"],
+      ["recording finished", "录制已完成"]
+    ],
+    "feeds.rs": [
+      ["Camera preview worker is unavailable", "摄像头预览服务不可用"]
+    ]
+  }
+}

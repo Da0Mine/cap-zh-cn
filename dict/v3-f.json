@@ -1,0 +1,219 @@
+{
+  "files": {
+    "editor_crop.rs": [
+      ["crop: no display recording to crop", "裁剪：没有可裁剪的显示器录制"],
+      ["crop opened", "裁剪已打开"],
+      ["crop cancelled", "裁剪已取消"],
+      ["crop saved", "裁剪已保存"],
+      ["crop press", "裁剪按下"],
+      ["crop drag", "裁剪拖动"],
+      ["crop: display frame decode failed", "裁剪：显示器画面解码失败"],
+      ["auto canvas select", "自动画布选择"],
+      ["Preview", "预览"]
+    ],
+    "editor_preparing/audio.rs": [
+      ["Preparing audio sources ended", "音频源准备已结束"],
+      ["Preparing audio timing layout changed", "音频时间布局已更改"],
+      ["Preparing audio requires Studio metadata", "准备音频需要 Studio 元数据"],
+      ["Preparing audio requires stopped segments", "准备音频需要已停止的片段"],
+      ["Preparing Studio metadata ended", "Studio 元数据准备已结束"],
+      ["Preparing audio timing requires ordinary loading", "音频时间准备需要常规加载"],
+      ["Preparing audio timing log is not a bounded regular file", "音频时间日志不是有界的常规文件"],
+      ["Preparing audio timing log changed before reading", "音频时间日志在读取前已更改"],
+      ["Preparing audio timing log changed while reading", "音频时间日志在读取时已更改"]
+    ],
+    "deeplink.rs": [
+      ["queueing deep link action", "正在排队深度链接操作"],
+      ["failed to queue deep link action", "深度链接操作排队失败"],
+      ["deep link is not a URL; ignored", "深度链接不是 URL，已忽略"],
+      ["failed to parse deep link action", "解析深度链接操作失败"],
+      ["invalid deep link format", "深度链接格式无效"],
+      ["executing Cap action", "正在执行 Cap 操作"],
+      ["failed to handle deep link action", "处理深度链接操作失败"],
+      ["Recording preparation is no longer current", "录制准备已失效"]
+    ],
+    "editor_timeline.rs": [
+      ["Image", "图片"],
+      ["Audio", "音频"],
+      ["Keyboard", "键盘"],
+      ["Captions", "字幕"],
+      ["Video", "视频"],
+      ["Style", "样式"],
+      ["Floating", "浮动"],
+      ["Muted", "已静音"]
+    ],
+    "editor_color.rs": [
+      ["Grain", "颗粒"],
+      ["Exposure", "曝光"],
+      ["Contrast", "对比度"],
+      ["Saturation", "饱和度"],
+      ["Temperature", "色温"],
+      ["Tint", "色调"],
+      ["Fade", "褪色"],
+      ["Vignette", "暗角"]
+    ],
+    "transcription.rs": [
+      ["My Brand Name", "我的品牌名称"],
+      ["Reusing cached Whisper context", "复用已缓存的 Whisper 上下文"],
+      ["No Stream", "无视频流"],
+      ["Resampled frame data shorter than expected", "重采样后的帧数据短于预期"],
+      ["Reusing cached Parakeet TDT model", "复用已缓存的 Parakeet TDT 模型"],
+      ["Video path is not a recording directory", "视频路径不是录制目录"],
+      ["timeline presence was just checked", "时间线存在性刚刚已检查"],
+      ["timeline was just created", "时间线刚刚已创建"]
+    ],
+    "camera_blur.rs": [
+      ["low-spec camera preview profile: background blur preview disabled", "低配摄像头预览配置：已禁用背景模糊预览"],
+      ["blur processor init", "模糊处理器初始化"],
+      ["Metal device unavailable", "Metal 设备不可用"],
+      ["blur output missing", "缺少模糊输出"],
+      ["cutout preview pixels unavailable", "抠像预览像素不可用"],
+      ["pixel buffer has no IOSurface", "像素缓冲区没有 IOSurface"],
+      ["Camera Blur Input", "摄像头模糊输入"]
+    ],
+    "target_overlay.rs": [
+      ["On", "开启"],
+      ["Off", "关闭"],
+      ["refusing unavailable or unexpected recording window", "拒绝不可用或异常的录制窗口"],
+      ["overlay start pressed", "已按下叠加层开始按钮"],
+      ["overlay key", "叠加层按键"],
+      ["could not update the recording device", "无法更新录制设备"],
+      ["could not save the recording countdown", "无法保存录制倒计时"]
+    ],
+    "app_sounds.rs": [
+      ["App sound unavailable", "应用音效不可用"],
+      ["Could not start app sound playback", "无法开始播放应用音效"],
+      ["opening audio output", "正在打开音频输出"],
+      ["decoding app sound", "正在解码应用音效"],
+      ["creating app sound sink", "正在创建应用音效接收器"],
+      ["App sound played", "已播放应用音效"]
+    ],
+    "auth.rs": [
+      ["User is not authenticated or credentials have expired!", "用户未登录，或凭据已过期！"],
+      ["User needs to upgrade their account to use this feature!", "用户需要升级账户才能使用此功能！"],
+      ["The request has timed out", "请求已超时"],
+      ["Failed to persist auth session", "保存登录会话失败"],
+      ["Failed to persist auth plan", "保存登录套餐失败"],
+      ["Sign in timed out", "登录超时"]
+    ],
+    "dev_restore.rs": [
+      ["dev-restore state unreadable; starting fresh", "dev-restore 状态无法读取，将重新开始"],
+      ["saved main window frame is off every connected display; opening centred", "已保存的主窗口位置不在任何已连接的显示器上，将以居中方式打开"],
+      ["dev-restore: reopening the previous session", "dev-restore：正在重新打开上一个会话"],
+      ["dev-restore: bundle is gone", "dev-restore：录制包已不存在"],
+      ["saved window frame is off every connected display; keeping the default placement", "已保存的窗口位置不在任何已连接的显示器上，将保留默认摆放"],
+      ["dev-restore state write failed", "dev-restore 状态写入失败"]
+    ],
+    "editor_canvas.rs": [
+      ["Screen", "屏幕"],
+      ["canvas display drag", "画布显示器拖动"],
+      ["canvas camera drag", "画布摄像头拖动"],
+      ["canvas mask drag", "画布蒙版拖动"],
+      ["canvas text drag", "画布文字拖动"],
+      ["canvas image drag", "画布图片拖动"]
+    ],
+    "editor_export.rs": [
+      ["Clipboard", "剪贴板"],
+      ["export preview rendered", "导出预览已渲染"],
+      ["Save dialog unavailable; keeping the export in its project output folder", "保存对话框不可用，导出文件将保留在项目的输出文件夹中"],
+      ["editor export completed", "编辑器导出完成"],
+      ["editor export failed", "编辑器导出失败"],
+      ["This is a rendered frame from your video. Adjust the settings to see the quality of the final export.", "这是你视频中渲染出的一帧画面。调整设置即可查看最终导出的画质。"]
+    ],
+    "permissions.rs": [
+      ["Microphone", "麦克风"],
+      ["Accessibility", "辅助功能"],
+      ["Click Grant to allow when macOS asks, or pick Cap in System Settings if needed. Restart the app after allowing screen recording.", "当 macOS 询问时点击「授权」以允许，或按需在系统设置中选择 Cap。允许屏幕录制后请重启应用。"],
+      ["Media permission request state is unavailable", "媒体权限请求状态不可用"],
+      ["Only camera and microphone permissions can configure a device", "只有摄像头和麦克风权限才能配置设备"]
+    ],
+    "screenshot.rs": [
+      ["Unknown", "未知"],
+      ["camera-only is not a screenshot target", "仅摄像头模式不是截图目标"],
+      ["screenshot captured", "已截取截图"],
+      ["capturing the screenshot", "正在截取截图"],
+      ["encoding the screenshot PNG", "正在编码截图 PNG"],
+      ["the PNG encode task died", "PNG 编码任务已终止"]
+    ],
+    "updates.rs": [
+      ["update downloaded and verified", "更新已下载并验证"],
+      ["update ready; waiting for in-flight work before prompting", "更新已就绪，等待进行中的任务结束后再提示"],
+      ["update installer started; quitting", "更新安装程序已启动，即将退出"],
+      ["update installed; waiting for in-flight work before restarting", "更新已安装，等待进行中的任务结束后再重启"],
+      ["update installed; relaunching", "更新已安装，正在重新启动"],
+      ["could not relaunch after updating", "更新后无法重新启动"]
+    ],
+    "editor_audio.rs": [
+      ["Sunday Mood", "周日心情"],
+      ["Good Night", "晚安"],
+      ["Empty Streets", "空荡街头"],
+      ["Hip Hop", "嘻哈"],
+      ["Lo-Fi", "低保真"]
+    ],
+    "editor_sidebar/animated_gradient.rs": [
+      ["failed to remember animated gradient selection", "无法记住动态渐变选择"],
+      ["Randomize", "随机化"],
+      ["Presets", "预设"],
+      ["Colours", "颜色"],
+      ["Motion", "运动"]
+    ],
+    "teleprompter_window.rs": [
+      ["teleprompter window alpha", "提词器窗口透明度"],
+      ["the store refused the teleprompter write", "存储拒绝了提词器写入"],
+      ["persisted teleprompter setting", "已持久化提词器设置"]
+    ],
+    "devices.rs": [
+      ["Camera is no longer available. Reconnect it and try again.", "摄像头已不可用。请重新连接后重试。"],
+      ["Could not read camera formats. Check camera access and try again.", "无法读取摄像头格式。请检查摄像头访问权限后重试。"],
+      ["No camera formats are available. Check camera access and try again.", "没有可用的摄像头格式。请检查摄像头访问权限后重试。"]
+    ],
+    "screenshot_crop.rs": [
+      ["Position", "位置"],
+      ["screenshot crop cancelled", "截图裁剪已取消"],
+      ["screenshot crop saved", "截图裁剪已保存"]
+    ],
+    "library.rs": [
+      ["failed to create recovered recording thumbnail", "无法创建已恢复录制的缩略图"],
+      ["Failed to create image from frame data", "无法从帧数据创建图像"]
+    ],
+    "platform/windows.rs": [
+      ["The clipboard file path is not valid Unicode", "剪贴板文件路径不是有效的 Unicode"],
+      ["native window theme is not supported", "不支持原生窗口主题"],
+      ["keeping window visible on streamed desktop", "在流式桌面中保持窗口可见"]
+    ],
+    "platform/macos_occlusion.rs": [
+      ["occlusionState implementation is missing", "occlusionState 实现缺失"],
+      ["occlusionState already points to the replacement", "occlusionState 已指向替代实现"],
+      ["could not install macOS occlusion shim", "无法安装 macOS 遮挡垫片"]
+    ],
+    "platform/windows/hidden_frame.rs": [
+      ["Main frame policy must be installed on the window's owning thread", "主框架策略必须安装在窗口所属的线程上"],
+      ["could not update Main frame subclass", "无法更新主框架子类"],
+      ["could not remove Main frame subclass", "无法移除主框架子类"]
+    ],
+    "platform/windows/url_scheme.rs": [
+      ["could not register the cap-desktop link handler", "无法注册 cap-desktop 链接处理程序"]
+    ],
+    "diagnostics.rs": [
+      ["Both", "两者"],
+      ["The self-test process handle was poisoned", "自检进程句柄已失效"]
+    ],
+    "onboarding_audio.rs": [
+      ["onboarding audio worker panicked", "新手引导音频工作线程发生 panic"],
+      ["missing onboarding music", "缺少新手引导音乐"]
+    ],
+    "picker_benchmark.rs": [
+      ["opens local capture devices to measure native picker dependencies", "打开本地捕获设备以测量原生选择器依赖"],
+      ["Benchmark camera is unavailable", "基准测试摄像头不可用"]
+    ],
+    "editor_window/frame.rs": [
+      ["Title", "标题"]
+    ],
+    "picker_ui_benchmark.rs": [
+      ["Could not write picker benchmark results", "无法写入选择器基准测试结果"]
+    ],
+    "platform/windows/session_end.rs": [
+      ["could not install the session end subclass", "无法安装会话结束子类"]
+    ]
+  }
+}

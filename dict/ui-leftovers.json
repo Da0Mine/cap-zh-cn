@@ -1,0 +1,20 @@
+{
+  "files": {
+    "apps/desktop-gpui/src/ui/selection_header.rs": [
+      [
+        "Done",
+        "完成"
+      ],
+      [
+        "Select all",
+        "全选"
+      ]
+    ],
+    "apps/desktop-gpui/src/ui/tooltip.rs": [
+      [
+        "Coming Soon",
+        "即将推出"
+      ]
+    ]
+  }
+}

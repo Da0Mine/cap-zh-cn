@@ -1,0 +1,166 @@
+# 禁译清单（审计器抓不到、但绝不能译的串）。一行一条，精确匹配字面量内容（不含两侧引号）。
+# ---------- 窗口标题／标识：参与「录制时排除自身窗口」匹配，且已写入用户配置 ----------
+Cap
+Cap Settings
+Cap Camera
+Cap Recording Controls
+Cap Mode Selection
+Cap Teleprompter
+Cap Target Select
+Cap Editor
+Cap Screenshot Editor
+Welcome to Cap
+Cap Window Capture Occluder
+Cap Capture Area
+Cap Recordings Overlay
+Cap Automation
+Cap Recording
+Cap.app.tar.gz
+Cap.AppImage
+.cap
+# ---------- 路径 ----------
+Library/Application Support/so.cap.desktop
+cap.so/s/m4k92x
+# ---------- 字体名：写入配置的字体标识 ----------
+System Sans-Serif
+System Serif
+System Monospace
+# ---------- 模型名 ----------
+whisper.cpp small
+whisper.cpp medium
+# ---------- 键盘码 / 快捷键提示 / 单位（大写单字母一律不译） ----------
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+Space
+Comma
+Enter
+Escape
+Tab
+Key
+ArrowUp
+ArrowDown
+ArrowLeft
+ArrowRight
+x100%
+KB
+MB
+GB
+TB
+PB
+# ---------- 一符两义／双用途：翻译会破坏逻辑 ----------
+Window Server
+Stage
+Report
+Error
+Export cancelled
+setup failed
+required audio failed
+actor stopped
+Timed out
+not mirrored
+unblurred and not mirrored
+Insufficient disk space
+Your recording is still paused
+No audio stream found
+Model file not found
+Failed to load Whisper model
+Parakeet transcription is not available on Intel macOS
+sign in
+session has expired
+
+# ---------- v5 复核补充（同样必须保持英文） ----------
+/api/desktop/plan
+/api/desktop/organizations
+/api/desktop/user/profile
+/api/desktop/video/new-id
+Camera Preview Blur
+just pushed
+Helvetica Neue
+Segoe UI
+Times New Roman
+Richie McIlroy
+$ cap record
+Aa
+Bb
+macOS Tahoe
+Cap.deb
+application/octet-stream
+.cap-update
+on run argv
+end run
+640 × 480
+while kill -0 
+org.freedesktop.portal.Desktop
+virtual display
+URL:so.cap.desktop protocol
+URL Protocol
+original.cap
+next.cap
+different.cap
+prior.cap
+Cap GPUI
+Cap Pro
+Google Drive
+Webhook
+export PATH=
+24 FPS
+25 FPS
+30 FPS
+120 FPS
+hasCompletedStartup
+instantModeMaxResolution
+disableAutoOpenLinks
+postStudioRecordingBehaviour
+crashRecoveryRecording
+autoZoomOnClicks
+captureKeyboardEvents
+macbookNotchOverlay
+recordingsPath
+previousRecordingsPaths
+defaultProjectNameTemplate
+updateChannel
+editorPreviewQuality
+enableNativeCameraPreview
+outOfProcessMuxer
+enableGpuiApp
+My Brand Name
+Period
+Slash
+Semicolon
+Quote
+BracketLeft
+BracketRight
+Backslash
+Minus
+Equal
+Backquote
+Backspace
+Home
+End
+PageUp
+PageDown
+Delete

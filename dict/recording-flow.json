@@ -1,0 +1,464 @@
+{
+  "pairs": [
+    [
+      "This camera is no longer available. Check that it is connected and allowed by system permissions.",
+      "此摄像头已不可用。请检查它是否已连接，并已获得系统权限。"
+    ],
+    [
+      "No frames were received from this camera. It may be closed, disconnected, covered, or in use by another app.",
+      "未从此摄像头接收到画面。它可能已被关闭、断开连接、被遮挡，或正被其他应用占用。"
+    ],
+    [
+      "The system could not start this camera. It may be unavailable or in use by another app.",
+      "系统无法启动此摄像头。它可能不可用，或正被其他应用占用。"
+    ],
+    [
+      "This camera did not report a usable capture format.",
+      "此摄像头未报告可用的捕获格式。"
+    ],
+    [
+      "The selected camera could not be started. Choose another camera or reconnect this one.",
+      "无法启动所选的摄像头。请选择其他摄像头，或重新连接此摄像头。"
+    ],
+    [
+      "Camera unavailable",
+      "摄像头不可用"
+    ],
+    [
+      "Mirror unavailable",
+      "镜像不可用"
+    ],
+    [
+      "Your camera preview is not mirrored.",
+      "您的摄像头预览未开启镜像。"
+    ],
+    [
+      "Background blur unavailable",
+      "背景模糊不可用"
+    ],
+    [
+      "Your camera is unblurred.",
+      "您的摄像头未开启背景模糊。"
+    ],
+    [
+      "Camera effects unavailable",
+      "摄像头特效不可用"
+    ],
+    [
+      "Your camera is unblurred and not mirrored.",
+      "您的摄像头未开启背景模糊和镜像。"
+    ],
+    [
+      "Loading camera...",
+      "正在加载摄像头..."
+    ],
+    [
+      "Instant Mode",
+      "即时模式"
+    ],
+    [
+      "Record & share in seconds",
+      "录制与分享，仅需数秒"
+    ],
+    [
+      "Your recording uploads as you capture. Stop recording and instantly get a shareable link — no waiting.",
+      "录制的同时即会后台上传。停止录制即可立即获得可分享的链接——无需等待。"
+    ],
+    [
+      "Instant shareable link",
+      "即时可分享链接"
+    ],
+    [
+      "Background uploading",
+      "后台上传"
+    ],
+    [
+      "AI transcription & summary",
+      "AI 转录与摘要"
+    ],
+    [
+      "Browser-based playback",
+      "基于浏览器的播放"
+    ],
+    [
+      "Studio Mode",
+      "工作室模式"
+    ],
+    [
+      "Professional editing tools",
+      "专业编辑工具"
+    ],
+    [
+      "Record in full quality locally, then use the built-in editor to add backgrounds, padding, cursor effects, and more.",
+      "以完整质量在本地录制，然后使用内置编辑器添加背景、边距、光标特效等。"
+    ],
+    [
+      "Full quality local recording",
+      "全质量本地录制"
+    ],
+    [
+      "Built-in editor & effects",
+      "内置编辑器与特效"
+    ],
+    [
+      "Custom backgrounds & padding",
+      "自定义背景与边距"
+    ],
+    [
+      "Export or share when ready",
+      "随时导出或分享"
+    ],
+    [
+      "Screenshot Mode",
+      "截图模式"
+    ],
+    [
+      "Capture & beautify instantly",
+      "即时捕获与美化"
+    ],
+    [
+      "Take screenshots with a single hotkey, add annotations and beautiful backgrounds, then share or copy instantly.",
+      "使用单个热键截图，添加标注和精美背景，然后即时分享或复制。"
+    ],
+    [
+      "Instant hotkey capture",
+      "即时热键捕获"
+    ],
+    [
+      "Annotation & drawing tools",
+      "标注与绘制工具"
+    ],
+    [
+      "Beautiful backgrounds",
+      "精美背景"
+    ],
+    [
+      "Copy, save, or share",
+      "复制、保存或分享"
+    ],
+    [
+      "Is Cap free to use?",
+      "Cap 免费吗？"
+    ],
+    [
+      "Cap is free for personal use. For teams and commercial use, check out our pricing plans.",
+      "Cap 对个人使用免费。对于团队和商业用途，请查看我们的定价方案。"
+    ],
+    [
+      "What's the difference between Instant and Studio?",
+      "即时模式和工作室模式有什么区别？"
+    ],
+    [
+      "Where are my recordings stored?",
+      "我的录制文件存放在哪里？"
+    ],
+    [
+      "Can I change my shortcuts later?",
+      "之后可以修改快捷键吗？"
+    ],
+    [
+      "Head to Settings → Shortcuts at any time to customize all your keyboard shortcuts.",
+      "随时前往 设置 → 快捷键 自定义所有键盘快捷键。"
+    ],
+    [
+      "How does sharing work?",
+      "分享是如何工作的？"
+    ],
+    [
+      "Could not save onboarding progress. Please try again.",
+      "无法保存新手引导进度。请重试。"
+    ],
+    [
+      "Could not save the sound preference.",
+      "无法保存声音偏好设置。"
+    ],
+    [
+      "Granted",
+      "已授权"
+    ],
+    [
+      "Open Settings",
+      "打开设置"
+    ],
+    [
+      "Optional",
+      "可选"
+    ],
+    [
+      "Welcome to Cap",
+      "欢迎使用 Cap"
+    ],
+    [
+      "Beautiful screen recordings, owned by you.",
+      "精美的屏幕录制，由你掌控。"
+    ],
+    [
+      "Get Started",
+      "开始使用"
+    ],
+    [
+      "Click here, or press",
+      "点击此处，或按"
+    ],
+    [
+      "Permissions Required",
+      "需要权限"
+    ],
+    [
+      "Cap needs a few permissions to record your screen and capture audio.",
+      "Cap 需要一些权限来录制屏幕和捕获音频。"
+    ],
+    [
+      "Granted it in System Settings? Relaunch Cap to apply.",
+      "已在系统设置中授权？重启 Cap 以生效。"
+    ],
+    [
+      "Relaunch Cap",
+      "重启 Cap"
+    ],
+    [
+      "One app, every workflow",
+      "一个应用，胜任各种工作流"
+    ],
+    [
+      "Whether you need speed, studio quality, or a quick screenshot — Cap has a mode for it.",
+      "无论你需要速度、工作室级质量，还是快速截图——Cap 都有对应的模式。"
+    ],
+    [
+      "Switch modes anytime",
+      "随时切换模式"
+    ],
+    [
+      "Toggle between modes with a single click from the main Cap window.",
+      "在 Cap 主窗口中单击即可在模式之间切换。"
+    ],
+    [
+      "Make Cap yours",
+      "让 Cap 属于你"
+    ],
+    [
+      "Customize everything from keyboard shortcuts to storage. Cap adapts to your workflow.",
+      "从键盘快捷键到存储，一切皆可自定义。Cap 会适应你的工作流。"
+    ],
+    [
+      "Keyboard Shortcuts",
+      "键盘快捷键"
+    ],
+    [
+      "Global hotkeys for recording, screenshots, and switching modes",
+      "用于录制、截图和切换模式的全局热键"
+    ],
+    [
+      "Custom S3 Storage",
+      "自定义 S3 存储"
+    ],
+    [
+      "Connect your own S3-compatible bucket for full control over your recordings",
+      "连接你自己的 S3 兼容存储桶，完全掌控你的录制文件"
+    ],
+    [
+      "Custom Domain",
+      "自定义域名"
+    ],
+    [
+      "Use your own domain for shareable links instead of cap.so",
+      "使用你自己的域名来代替 cap.so 生成分享链接"
+    ],
+    [
+      "Recording Preferences",
+      "录制偏好设置"
+    ],
+    [
+      "FPS, quality, countdown timer, cursor effects, and more",
+      "FPS、质量、倒计时、光标特效等"
+    ],
+    [
+      "Change any of these at any time in Settings",
+      "可随时在设置中更改以上任何一项"
+    ],
+    [
+      "Frequently Asked Questions",
+      "常见问题"
+    ],
+    [
+      "Everything you need to know to get started.",
+      "入门所需了解的一切。"
+    ],
+    [
+      "View pricing plans",
+      "查看定价方案"
+    ],
+    [
+      "View pricing plans ↗",
+      "查看定价方案 ↗"
+    ],
+    [
+      "Continue to Cap",
+      "继续进入 Cap"
+    ],
+    [
+      "Start Using Cap",
+      "开始使用 Cap"
+    ],
+    [
+      "Skip onboarding",
+      "跳过新手引导"
+    ],
+    [
+      "Press Enter ↵ or use ← → arrow keys",
+      "按 Enter ↵ 或使用 ← → 方向键"
+    ],
+    [
+      "Start Recording",
+      "开始录制"
+    ],
+    [
+      "Link ready to share!",
+      "链接已准备好分享！"
+    ],
+    [
+      "Cap Editor",
+      "Cap 编辑器"
+    ],
+    [
+      "Export complete!",
+      "导出完成！"
+    ],
+    [
+      "Copied to clipboard",
+      "已复制到剪贴板"
+    ],
+    [
+      "Share link",
+      "分享链接"
+    ],
+    [
+      "Select area",
+      "选择区域"
+    ],
+    [
+      "Screen Recording",
+      "屏幕录制"
+    ],
+    [
+      "During recording, Cap collects mouse activity locally to generate automatic zoom in segments.",
+      "在录制期间，Cap 会在本地收集鼠标活动，以在片段中生成自动缩放。"
+    ],
+    [
+      "This permission is required to record audio in your Caps.",
+      "需要此权限才能在 Cap 中录制音频。"
+    ],
+    [
+      "This permission is required to record your camera in your Caps.",
+      "需要此权限才能在 Cap 中录制摄像头画面。"
+    ],
+    [
+      "No Camera",
+      "无摄像头"
+    ],
+    [
+      "No Microphone",
+      "无麦克风"
+    ],
+    [
+      "Please select a camera",
+      "请选择摄像头"
+    ],
+    [
+      "Camera Only",
+      "仅摄像头"
+    ],
+    [
+      "Record using only your camera and microphone",
+      "仅使用摄像头和麦克风进行录制"
+    ],
+    [
+      "Click and drag to select an area",
+      "单击并拖动以选择区域"
+    ],
+    [
+      "Draw an area",
+      "绘制区域"
+    ],
+    [
+      "Recording countdown",
+      "录制倒计时"
+    ],
+    [
+      "Take Screenshot",
+      "截图"
+    ],
+    [
+      "Instant Mode — Record shareable link",
+      "即时模式 — 录制可分享链接"
+    ],
+    [
+      "Studio Mode — Record and edit locally",
+      "工作室模式 — 本地录制并编辑"
+    ],
+    [
+      "Choose recording mode",
+      "选择录制模式"
+    ],
+    [
+      "Scrolling paused with recording",
+      "录制时已暂停滚动"
+    ],
+    [
+      "This window is hidden from Cap recordings",
+      "此窗口在 Cap 录制中不可见"
+    ],
+    [
+      "Cue markers",
+      "标记点"
+    ],
+    [
+      "Mirror text",
+      "镜像文本"
+    ],
+    [
+      "Finish your recording, export, upload, import, or transcription task before updating Cap.",
+      "更新 Cap 前，请先完成你的录制、导出、上传、导入或转录任务。"
+    ],
+    [
+      "Update Cap",
+      "更新 Cap"
+    ],
+    [
+      "Cap is busy",
+      "Cap 正忙"
+    ],
+    [
+      "No Update Available",
+      "没有可用更新"
+    ],
+    [
+      "You're already using the latest version of Cap.",
+      "您正在使用最新版本的 Cap。"
+    ],
+    [
+      "Not Now",
+      "暂不更新"
+    ],
+    [
+      "Restart Now",
+      "立即重启"
+    ],
+    [
+      "Cap is still open",
+      "Cap 仍在运行"
+    ],
+    [
+      "This copy of Cap isn't running from an app bundle",
+      "此 Cap 副本并非从应用捆绑包中运行"
+    ],
+    [
+      "This copy of Cap isn't running from an AppImage",
+      "此 Cap 副本并非从 AppImage 中运行"
+    ],
+    [
+      "This package can't be installed on Linux",
+      "此软件包无法在 Linux 上安装"
+    ]
+  ]
+}

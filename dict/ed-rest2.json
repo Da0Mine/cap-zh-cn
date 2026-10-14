@@ -1,0 +1,52 @@
+{
+  "files": {
+    "apps/desktop-gpui/src/editor_audio.rs": [
+      ["Done", "完成"],
+      ["Change audio", "更换音频"],
+      ["Add audio", "添加音频"],
+      ["Pick a different track for this segment", "为此片段选择其他曲目"],
+      ["Add audio, music or other sounds to your video", "为你的视频添加音频、音乐或其他声音"],
+      ["Import file", "导入文件"]
+    ],
+    "apps/desktop-gpui/src/editor_sidebar/animated_gradient.rs": [
+      ["Name this gradient", "给此渐变命名"],
+      ["Enter a name for this gradient.", "请输入此渐变的名称。"],
+      ["Could not save this gradient. Try again.", "无法保存此渐变，请重试。"],
+      ["Could not delete this gradient. Try again.", "无法删除此渐变，请重试。"],
+      ["Could not remember your animated gradient settings.", "无法记住你的动态渐变设置。"],
+      ["Save", "保存"],
+      ["Save the current gradient", "保存当前渐变"],
+      ["Saved", "已保存"],
+      ["Remove colour", "移除颜色"],
+      ["Add a colour", "添加颜色"],
+      ["Fine-tune", "微调"],
+      ["Reset fine-tune settings", "重置微调设置"]
+    ],
+    "apps/desktop-gpui/src/editor_sidebar/cursor.rs": [
+      ["Default", "默认"],
+      ["Recorded cursors", "录制时的光标"],
+      ["Recorded with this cursor", "使用此光标录制"],
+      ["Keeps the cursor shapes and appearance from your recording.", "保留你录制时光标的形状与外观。"],
+      ["Classic macOS appearance. Custom cursors keep their recorded shape.", "经典 macOS 外观。自定义光标会保留其录制时的形状。"],
+      ["Windows appearance. Custom cursors keep their recorded shape.", "Windows 外观。自定义光标会保留其录制时的形状。"],
+      ["Replaces all cursor shapes with a circle.", "将所有光标形状替换为圆形。"],
+      ["Click Ripple", "点击涟漪"]
+    ],
+    "apps/desktop-gpui/src/editor_window/frame.rs": [
+      ["Show the recording as-is", "按原样显示录制内容"],
+      ["Window chrome with traffic lights", "带红绿灯按钮的窗口外观"],
+      ["Title bar with window controls", "带窗口控件的标题栏"],
+      ["Browser chrome with address bar", "带地址栏的浏览器外观"],
+      ["Laptop bezel around the recording", "环绕录制内容的笔记本电脑边框"],
+      ["Add a frame", "添加边框"],
+      ["Window title", "窗口标题"],
+      ["Frame", "边框"],
+      ["This Style changed. Close and reopen Frame.", "此样式已更改。请关闭并重新打开边框。"],
+      ["Global frame · Applies wherever Style inherits background.", "全局边框 · 适用于所有继承背景样式的位置。"],
+      ["Theme", "主题"]
+    ],
+    "apps/desktop-gpui/src/editor_window/scenes.rs": [
+      ["No room for another 3D shot", "无法再添加 3D 镜头"]
+    ]
+  }
+}

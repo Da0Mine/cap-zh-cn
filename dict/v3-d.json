@@ -1,0 +1,648 @@
+{
+  "files": {
+    "main_window.rs": [
+      [
+        "Mono",
+        "单声道"
+      ],
+      [
+        "Stereo",
+        "立体声"
+      ],
+      [
+        "Default",
+        "默认"
+      ],
+      [
+        "Share instantly with a link. Your recording uploads as you record, so you can share it immediately when you're done.",
+        "通过链接即可即时分享。录制的同时即会上传，因此完成后能立刻分享。"
+      ],
+      [
+        "Record locally in the highest quality for editing later. Perfect for creating polished content with effects and transitions.",
+        "以最高画质在本地录制，方便之后编辑。非常适合制作带特效和转场的精良内容。"
+      ],
+      [
+        "Capture and annotate screenshots instantly. Great for quick captures, bug reports, and visual communication.",
+        "即时截取并标注截图。非常适合快速截图、缺陷报告和视觉沟通。"
+      ],
+      [
+        "Area",
+        "区域"
+      ],
+      [
+        "Camera Only",
+        "仅摄像头"
+      ],
+      [
+        "Import",
+        "导入"
+      ],
+      [
+        "Could not save the selected camera",
+        "无法保存所选摄像头"
+      ],
+      [
+        "Could not save the selected microphone",
+        "无法保存所选麦克风"
+      ],
+      [
+        "enumerated capture devices",
+        "已枚举捕获设备"
+      ],
+      [
+        "auto-selecting camera",
+        "自动选择摄像头"
+      ],
+      [
+        "auto-selecting microphone",
+        "自动选择麦克风"
+      ],
+      [
+        "incomplete recording action failed",
+        "未完成录制的操作失败"
+      ],
+      [
+        "recording mode changed",
+        "录制模式已更改"
+      ],
+      [
+        "auto-record microphone",
+        "自动录制麦克风"
+      ],
+      [
+        "auto-record start requested",
+        "请求自动开始录制"
+      ],
+      [
+        "auto-record selected window is no longer available",
+        "自动录制所选的窗口已不可用"
+      ],
+      [
+        "seeding area selection",
+        "正在预置区域选择"
+      ],
+      [
+        "auto-record could not start",
+        "无法开始自动录制"
+      ],
+      [
+        "auto-record stop requested",
+        "请求自动停止录制"
+      ],
+      [
+        "auto window target",
+        "自动窗口目标"
+      ],
+      [
+        "Recover",
+        "恢复"
+      ],
+      [
+        "Settings",
+        "设置"
+      ],
+      [
+        "Teleprompter",
+        "提词器"
+      ],
+      [
+        "Starting...",
+        "正在启动..."
+      ],
+      [
+        "Stopping...",
+        "正在停止..."
+      ],
+      [
+        "Commercial",
+        "商业版"
+      ]
+    ],
+    "store.rs": [
+      [
+        "Close",
+        "关闭"
+      ],
+      [
+        "Light",
+        "轻度",
+        59
+      ],
+      [
+        "Light",
+        "浅色",
+        589
+      ],
+      [
+        "Heavy",
+        "重度"
+      ],
+      [
+        "Cutout",
+        "抠图"
+      ],
+      [
+        "cleared the hand-off marker",
+        "已清除交接标记"
+      ],
+      [
+        "couldn't clear classic handoff readiness",
+        "无法清除经典版交接就绪状态"
+      ],
+      [
+        "the Tauri store is not a JSON object; refusing to write to it",
+        "Tauri store 不是 JSON 对象；拒绝写入"
+      ],
+      [
+        "just replaced any non-object with an object",
+        "刚刚已将非对象替换为对象"
+      ],
+      [
+        "System",
+        "跟随系统"
+      ],
+      [
+        "Dark",
+        "深色"
+      ],
+      [
+        "Compatibility",
+        "兼容"
+      ],
+      [
+        "Balanced",
+        "均衡"
+      ],
+      [
+        "Ultra",
+        "极致"
+      ],
+      [
+        "Minimise",
+        "最小化"
+      ],
+      [
+        "Open editor",
+        "打开编辑器"
+      ],
+      [
+        "Show in overlay",
+        "在叠加层中显示"
+      ],
+      [
+        "Do nothing",
+        "不执行任何操作"
+      ],
+      [
+        "Reopen recording window",
+        "重新打开录制窗口"
+      ],
+      [
+        "Stable",
+        "稳定版"
+      ],
+      [
+        "Nightly",
+        "每夜版"
+      ],
+      [
+        "Quarter",
+        "四分之一"
+      ],
+      [
+        "Half",
+        "二分之一"
+      ],
+      [
+        "Full",
+        "完整"
+      ]
+    ],
+    "session.rs": [
+      [
+        "Timed out confirming capture state",
+        "确认捕获状态超时"
+      ],
+      [
+        "Capture did not acknowledge the requested pause state",
+        "捕获未确认所请求的暂停状态"
+      ],
+      [
+        "previous recording start is still tearing down; starting anyway",
+        "上一次录制启动仍在收尾；仍将开始"
+      ],
+      [
+        "Recording task failed.",
+        "录制任务失败。"
+      ],
+      [
+        "Recording startup failed",
+        "录制启动失败"
+      ],
+      [
+        "discarding a cancelled recording start failed",
+        "丢弃已取消的录制启动失败"
+      ],
+      [
+        "Recording ended unexpectedly.",
+        "录制意外结束。"
+      ],
+      [
+        "recording pipeline failed",
+        "录制流水线失败"
+      ],
+      [
+        "Could not check recording storage",
+        "无法检查录制存储"
+      ],
+      [
+        "Low storage. Stopping and saving your recording…",
+        "存储空间不足。正在停止并保存你的录制…"
+      ],
+      [
+        "Capture cleanup is unconfirmed. Local files are preserved; use Ctrl+Shift+F9 to retry Stop.",
+        "捕获清理未得到确认。本地文件已保留；按 Ctrl+Shift+F9 重试停止。"
+      ],
+      [
+        "Studio capture stopped; editor preparation can begin",
+        "工作室捕获已停止；可以开始准备编辑器"
+      ],
+      [
+        "Capture stop was not acknowledged",
+        "捕获停止未得到确认"
+      ],
+      [
+        "Capture cleanup is unconfirmed; retaining Stop control",
+        "捕获清理未得到确认；保留停止控件"
+      ],
+      [
+        "Recording stopped because storage is low. Your recording was saved.",
+        "由于存储空间不足，录制已停止。你的录制已保存。"
+      ],
+      [
+        "Recording stopped because storage is low. Your recording files were kept. Free up space, then recover the recording below.",
+        "由于存储空间不足，录制已停止。你的录制文件已保留。请清理空间，然后在下方恢复该录制。"
+      ],
+      [
+        "Stop task failed.",
+        "停止任务失败。"
+      ],
+      [
+        "pause/resume failed",
+        "暂停/恢复失败"
+      ],
+      [
+        "clean capture pause/resume failed",
+        "纯净捕获暂停/恢复失败"
+      ],
+      [
+        "Studio discard stop was not acknowledged; local recording retained",
+        "工作室丢弃停止未得到确认；本地录制已保留"
+      ],
+      [
+        "Capture cleanup is unconfirmed; retry Stop.",
+        "捕获清理未得到确认；请重试停止。"
+      ],
+      [
+        "unmap not acknowledged",
+        "未确认取消映射"
+      ],
+      [
+        "capture control must not be polled",
+        "不得轮询捕获控制"
+      ],
+      [
+        "setup or teardown failed",
+        "设置或拆卸失败"
+      ],
+      [
+        "A cancelled resume must not query state",
+        "已取消的恢复不得查询状态"
+      ]
+    ],
+    "feeds.rs": [
+      [
+        "camera blur preview initialized",
+        "摄像头模糊预览已初始化"
+      ],
+      [
+        "Device selection changed before it was ready",
+        "设备选择在准备就绪前发生了更改"
+      ],
+      [
+        "Device selection changed before permission was granted",
+        "设备选择在授予权限前发生了更改"
+      ],
+      [
+        "Device selection changed before the format was applied",
+        "设备选择在应用格式前发生了更改"
+      ],
+      [
+        "Processed camera factory does not match the locked camera",
+        "处理后的摄像头工厂与锁定的摄像头不匹配"
+      ],
+      [
+        "Camera selection changed before recording",
+        "开始录制前摄像头选择发生了更改"
+      ],
+      [
+        "A processed camera recording is already active",
+        "已有一个处理后的摄像头录制处于活动状态"
+      ],
+      [
+        "Camera selection changed while waiting for recording processing",
+        "等待录制处理期间摄像头选择发生了更改"
+      ],
+      [
+        "Timed out attaching processed camera",
+        "附加处理后的摄像头超时"
+      ],
+      [
+        "Camera processing worker command deadline exceeded",
+        "摄像头处理工作线程命令超时"
+      ],
+      [
+        "Camera preview processing worker is unavailable",
+        "摄像头预览处理工作线程不可用"
+      ],
+      [
+        "Camera selection changed while preparing recording effects",
+        "准备录制特效期间摄像头选择发生了更改"
+      ],
+      [
+        "Processed camera pixels unavailable",
+        "处理后的摄像头像素不可用"
+      ],
+      [
+        "Camera selection changed during recording",
+        "录制期间摄像头选择发生了更改"
+      ],
+      [
+        "Camera capture timestamp is not monotonic",
+        "摄像头捕获时间戳不是单调递增的"
+      ],
+      [
+        "Camera preview was reset during recording",
+        "录制期间摄像头预览被重置"
+      ],
+      [
+        "Another processed camera lease is still active",
+        "另一个处理后的摄像头租约仍处于活动状态"
+      ],
+      [
+        "Requested camera blur is unavailable",
+        "所请求的摄像头模糊不可用"
+      ],
+      [
+        "Camera frame conversion failed",
+        "摄像头帧转换失败"
+      ],
+      [
+        "Requested camera blur has no output receipt",
+        "所请求的摄像头模糊没有输出回执"
+      ],
+      [
+        "camera preview parked",
+        "摄像头预览已挂起"
+      ],
+      [
+        "camera preview resumed",
+        "摄像头预览已恢复"
+      ],
+      [
+        "Camera preview subscription is unavailable",
+        "摄像头预览订阅不可用"
+      ]
+    ],
+    "camera_blur_portable.rs": [
+      [
+        "Camera Preview Blur",
+        "摄像头预览模糊"
+      ],
+      [
+        "camera blur runtime",
+        "摄像头模糊运行时"
+      ],
+      [
+        "camera blur processor",
+        "摄像头模糊处理器"
+      ],
+      [
+        "camera frame width",
+        "摄像头帧宽度"
+      ],
+      [
+        "camera frame height",
+        "摄像头帧高度"
+      ],
+      [
+        "camera frame row size",
+        "摄像头帧行大小"
+      ],
+      [
+        "camera frame size",
+        "摄像头帧大小"
+      ],
+      [
+        "camera frame pixels unavailable",
+        "摄像头帧像素不可用"
+      ],
+      [
+        "camera frame pixel data does not match its dimensions",
+        "摄像头帧像素数据与其尺寸不匹配"
+      ],
+      [
+        "camera blur source missing",
+        "缺少摄像头模糊源"
+      ],
+      [
+        "camera blur output missing",
+        "缺少摄像头模糊输出"
+      ],
+      [
+        "camera blur readback missing",
+        "缺少摄像头模糊回读"
+      ],
+      [
+        "camera blur GPU readback channel",
+        "摄像头模糊 GPU 回读通道"
+      ],
+      [
+        "camera blur readback rows",
+        "摄像头模糊回读行"
+      ],
+      [
+        "camera blur output image",
+        "摄像头模糊输出图像"
+      ],
+      [
+        "camera blur output status missing",
+        "缺少摄像头模糊输出状态"
+      ],
+      [
+        "camera blur row size",
+        "摄像头模糊行大小"
+      ],
+      [
+        "camera blur row alignment",
+        "摄像头模糊行对齐"
+      ],
+      [
+        "camera blur readback size",
+        "摄像头模糊回读大小"
+      ],
+      [
+        "Camera Preview Blur Source",
+        "摄像头预览模糊源"
+      ],
+      [
+        "Camera Preview Blur Readback",
+        "摄像头预览模糊回读"
+      ]
+    ],
+    "screenshot_editor.rs": [
+      [
+        "Size",
+        "大小"
+      ],
+      [
+        "Background",
+        "背景"
+      ],
+      [
+        "Color",
+        "颜色"
+      ],
+      [
+        "Padding",
+        "留白"
+      ],
+      [
+        "Squircle",
+        "超椭圆"
+      ],
+      [
+        "Rounded",
+        "圆角"
+      ],
+      [
+        "Opacity",
+        "不透明度"
+      ],
+      [
+        "Blur",
+        "模糊"
+      ],
+      [
+        "Auto",
+        "自动"
+      ],
+      [
+        "Save",
+        "保存"
+      ],
+      [
+        "screenshot config written",
+        "截图配置已写入"
+      ],
+      [
+        "harness export written",
+        "测试框架导出已写入"
+      ],
+      [
+        "wallpaper asset not found",
+        "未找到壁纸资源"
+      ],
+      [
+        "Rounding",
+        "圆角"
+      ],
+      [
+        "Width",
+        "宽"
+      ],
+      [
+        "a rendered screenshot frame could not be converted for display",
+        "无法将渲染后的截图帧转换为可显示格式"
+      ],
+      [
+        "screenshot frame",
+        "截图帧"
+      ]
+    ],
+    "camera_window.rs": [
+      [
+        "Camera geometry has invalid or unsupported physical dimensions",
+        "摄像头几何尺寸的物理尺寸无效或不受支持"
+      ],
+      [
+        "Camera window has an invalid scale factor",
+        "摄像头窗口的缩放系数无效"
+      ],
+      [
+        "Camera window has an invalid preview size",
+        "摄像头窗口的预览尺寸无效"
+      ],
+      [
+        "Camera recording requires valid delivered frame dimensions",
+        "摄像头录制需要有效的已交付帧尺寸"
+      ],
+      [
+        "Camera viewport and X11 client dimensions disagree; wait for resizing",
+        "摄像头视口与 X11 客户端尺寸不一致；请等待调整大小"
+      ],
+      [
+        "Camera presentation and viewport disagree; wait for resizing",
+        "摄像头呈现与视口不一致；请等待调整大小"
+      ],
+      [
+        "Camera viewport has no preview below its toolbar",
+        "摄像头视口在其工具栏下方没有预览"
+      ],
+      [
+        "Round camera preview does not have square physical bounds",
+        "圆形摄像头预览的物理边界不是正方形"
+      ],
+      [
+        "VTPixelRotationSession unavailable; camera preview mirroring disabled",
+        "VTPixelRotationSession 不可用；摄像头预览镜像已停用"
+      ],
+      [
+        "camera preview mirroring failed",
+        "摄像头预览镜像失败"
+      ],
+      [
+        "Camera recording requires a delivered preview frame",
+        "摄像头录制需要已交付的预览帧"
+      ],
+      [
+        "Camera recording geometry requires an X11 window",
+        "摄像头录制的几何尺寸需要 X11 窗口"
+      ],
+      [
+        "Camera client and root window are on different X11 screens",
+        "摄像头客户端与根窗口位于不同的 X11 屏幕上"
+      ],
+      [
+        "camera blur worker unavailable; preview continues unblurred",
+        "摄像头模糊工作线程不可用；预览将继续不模糊"
+      ],
+      [
+        "camera frame could not be converted for preview",
+        "无法将摄像头帧转换为预览画面"
+      ],
+      [
+        "camera preview cadence",
+        "摄像头预览节奏"
+      ],
+      [
+        "just ensured",
+        "刚刚已确保"
+      ],
+      [
+        "camera window restored to its saved position",
+        "摄像头窗口已恢复到保存的位置"
+      ]
+    ]
+  }
+}

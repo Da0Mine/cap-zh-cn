@@ -1,0 +1,554 @@
+{
+  "files": {
+    "recording.rs": [
+      [
+        "An Instant attempt cannot replace its capture lifecycle",
+        "即时尝试无法替换其捕获生命周期"
+      ],
+      [
+        "Recording startup cancelled",
+        "录制启动已取消"
+      ],
+      [
+        "Instant startup attempt was already used or cancelled",
+        "即时启动尝试已被使用或已取消"
+      ],
+      [
+        "Recording startup acknowledgement lost",
+        "录制启动确认丢失"
+      ],
+      [
+        "Instant operation panicked",
+        "即时操作发生 panic"
+      ],
+      [
+        "Could not apply the Studio Sound default",
+        "无法应用工作室音效默认设置"
+      ],
+      [
+        "studio finalize task",
+        "工作室收尾任务"
+      ],
+      [
+        "studio finalize",
+        "工作室收尾"
+      ],
+      [
+        "Studio stop remux complete",
+        "工作室停止重封装完成"
+      ],
+      [
+        "Studio stop thumbnail complete",
+        "工作室停止缩略图完成"
+      ],
+      [
+        "studio post-finalize task",
+        "工作室收尾后任务"
+      ],
+      [
+        "Another Studio terminal action owns cleanup",
+        "另一个工作室终止动作拥有清理权"
+      ],
+      [
+        "Studio capture shutdown acknowledged; finalization starting",
+        "工作室捕获关闭已确认；开始收尾"
+      ],
+      [
+        "Studio discard task failed",
+        "工作室丢弃任务失败"
+      ],
+      [
+        "Instant lifecycle missing",
+        "缺少即时生命周期"
+      ],
+      [
+        "delete task",
+        "删除任务"
+      ],
+      [
+        "instant recording has no upload session",
+        "即时录制没有上传会话"
+      ],
+      [
+        "Could not mark the instant recording as stopped",
+        "无法将即时录制标记为已停止"
+      ],
+      [
+        "instant finalize task",
+        "即时收尾任务"
+      ],
+      [
+        "instant finalize",
+        "即时收尾"
+      ],
+      [
+        "instant recording has no finalized output",
+        "即时录制没有已收尾的输出"
+      ],
+      [
+        "instant thumbnail task",
+        "即时缩略图任务"
+      ],
+      [
+        "Local recording saved; upload needs attention",
+        "本地录制已保存；上传需要处理"
+      ],
+      [
+        "saving instant recording metadata",
+        "正在保存即时录制元数据"
+      ],
+      [
+        "Could not mark the preserved instant recording as stopped",
+        "无法将保留的即时录制标记为已停止"
+      ],
+      [
+        "checking storage before saving the recording",
+        "保存录制前检查存储"
+      ],
+      [
+        "wrote recording thumbnail",
+        "已写入录制缩略图"
+      ],
+      [
+        "Camera blur requires ordinary editor loading",
+        "摄像头模糊需要常规编辑器加载"
+      ],
+      [
+        "Animated-gradient preferences require ordinary editor loading",
+        "动态渐变偏好设置需要常规编辑器加载"
+      ],
+      [
+        "Project configuration is not an object",
+        "项目配置不是对象"
+      ],
+      [
+        "Audio configuration is not an object",
+        "音频配置不是对象"
+      ],
+      [
+        "project config did not parse; keeping its background",
+        "项目配置无法解析；保留其背景"
+      ],
+      [
+        "the project config did not parse as an object; refusing to write to it",
+        "项目配置无法解析为对象；拒绝向其写入"
+      ],
+      [
+        "project config `camera` is not an object",
+        "项目配置 `camera` 不是对象"
+      ],
+      [
+        "project config `camera.backgroundBlur` is not an object",
+        "项目配置 `camera.backgroundBlur` 不是对象"
+      ],
+      [
+        "bridged camera blur into the project config",
+        "已将摄像头模糊桥接进项目配置"
+      ],
+      [
+        "Instant recording upload cancelled; local success withheld",
+        "即时录制上传已取消；暂不标记为本地成功"
+      ],
+      [
+        "deleting uploaded instant recording",
+        "正在删除已上传的即时录制"
+      ],
+      [
+        "Processed camera requires an Instant screen capture with a selected camera",
+        "处理后的摄像头需要已选定摄像头的即时屏幕捕获"
+      ],
+      [
+        "Processed camera requires an Instant screen capture",
+        "处理后的摄像头需要即时屏幕捕获"
+      ],
+      [
+        "Camera presentation mirror differs from requested processing",
+        "摄像头呈现的镜像与请求的处理不一致"
+      ],
+      [
+        "Camera presentation blur differs from requested processing",
+        "摄像头呈现的模糊与请求的处理不一致"
+      ],
+      [
+        "Processed camera requires a selected camera",
+        "处理后的摄像头需要选定一个摄像头"
+      ],
+      [
+        "Preparing requested camera effects",
+        "正在准备所请求的摄像头特效"
+      ],
+      [
+        "studio recording actor",
+        "工作室录制 actor"
+      ],
+      [
+        "instant recording actor",
+        "即时录制 actor"
+      ],
+      [
+        "instant recording has no reserved upload",
+        "即时录制没有预留的上传"
+      ],
+      [
+        "excluding window from capture",
+        "正在将窗口从捕获中排除"
+      ],
+      [
+        "Starting recording with low disk space",
+        "磁盘空间不足，仍开始录制"
+      ],
+      [
+        "Unpolled setup must not run",
+        "未轮询的 setup 不得运行"
+      ],
+      [
+        "No active recording exists",
+        "不存在活动的录制"
+      ],
+      [
+        "setup panic",
+        "setup 发生 panic"
+      ],
+      [
+        "actor no longer exists",
+        "actor 已不存在"
+      ],
+      [
+        "Discard owns terminal action",
+        "丢弃操作拥有终止动作"
+      ]
+    ],
+    "settings_pages.rs": [
+      [
+        "Pause/resume recording",
+        "暂停/继续录制"
+      ],
+      [
+        "saving the hotkeys store failed",
+        "保存快捷键存储失败"
+      ],
+      [
+        "Added cap to your PATH. Restart your terminal to use it, or run this now:",
+        "已将 cap 添加到 PATH。请重启终端以使用它，或现在运行："
+      ],
+      [
+        "Add names, spellings, domains, and capitalization preferences that caption generation should keep in mind.",
+        "添加字幕生成时应留意的名称、拼写、域名和大小写偏好。"
+      ],
+      [
+        "Run the fragmented-MP4 muxer in an isolated subprocess so muxer crashes can't take down your recording. Requires the bundled cap-muxer binary.",
+        "在隔离的子进程中运行分片 MP4 混流器，这样混流器崩溃也不会拖垮你的录制。需要随附的 cap-muxer 二进制文件。"
+      ],
+      [
+        "You are using the native version of Cap. Turning this off closes it and reopens the classic app in the dev harness. Your recordings and settings are shared.",
+        "你正在使用 Cap 的原生版本。关闭它会在开发测试环境中关闭本应用并重新打开经典版应用。你的录制和设置是共享的。"
+      ],
+      [
+        "classic app is visible; quitting GPUI",
+        "经典版应用已可见；正在退出 GPUI"
+      ],
+      [
+        "Please sign in to continue. Alternatively, email hello@cap.so or join our Discord at cap.link/discord",
+        "请登录以继续。或者发送邮件至 hello@cap.so，或通过 cap.link/discord 加入我们的 Discord"
+      ],
+      [
+        "The Cap command-line tool was not found next to this build, so the sync test could not run.",
+        "此构建旁未找到 Cap 命令行工具，因此无法运行同步测试。"
+      ],
+      [
+        "A fullscreen window flashes black and white while 1kHz beeps play through your speakers, and Cap records it and measures how far the picture and the sound have drifted apart. Leave the machine alone while it runs. Both modes together take a couple of minutes.",
+        "全屏窗口会黑白闪烁，同时扬声器播放 1kHz 提示音，Cap 会录制该画面并测量画面与声音偏离的程度。运行期间请勿操作电脑。两种模式一起大约需要几分钟。"
+      ],
+      [
+        "Also record your microphone and check that it hears the beeps in time. Needs speakers the mic can actually hear.",
+        "同时录制你的麦克风，检查它能否及时听到提示音。需要麦克风能实际听到的扬声器。"
+      ],
+      [
+        "The Cap command-line tool was not found next to this build, so the report will cover your environment only.",
+        "此构建旁未找到 Cap 命令行工具，因此报告将仅涵盖你的环境。"
+      ],
+      [
+        "Help us improve Cap by submitting feedback or reporting bugs. We'll get right on it.",
+        "提交反馈或报告问题，帮助我们改进 Cap。我们会尽快处理。"
+      ],
+      [
+        "Have questions, want to share ideas, or just hang out? Join the Cap Discord community.",
+        "有疑问、想分享想法，或者只是想聊聊？加入 Cap Discord 社区。"
+      ],
+      [
+        "Records a short flashing/beeping test pattern, measures how far the picture and sound drift apart, and snapshots your displays, cameras, microphones, disk space and recording settings. Nothing is sent anywhere until you choose to send it.",
+        "录制一段简短的闪烁/提示音测试画面，测量画面与声音偏离的程度，并快照你的显示器、摄像头、麦克风、磁盘空间和录制设置。在你选择发送之前，任何内容都不会被发送到任何地方。"
+      ],
+      [
+        "Upload your logs to help us diagnose issues with Cap. No personal information is included.",
+        "上传你的日志，帮助我们诊断 Cap 的问题。其中不包含任何个人信息。"
+      ],
+      [
+        "Cap Free",
+        "Cap 免费版"
+      ],
+      [
+        "clearing the commercial license failed",
+        "清除商业许可证失败"
+      ],
+      [
+        "Connection test timed out after 5 seconds. Please check your endpoint URL and network connection.",
+        "连接测试在 5 秒后超时。请检查你的端点 URL 和网络连接。"
+      ],
+      [
+        "Connect Google Drive for new shareable link uploads. Cap stores new videos in a private Cap folder in your Drive and continues serving them through Cap after normal access checks.",
+        "连接 Google Drive 以用于新的可分享链接上传。Cap 会把新视频存储在你 Drive 中的私有 Cap 文件夹内，并在通过常规访问检查后继续通过 Cap 提供访问。"
+      ],
+      [
+        "Connect your own S3 bucket for complete control over your data storage. All new shareable link uploads will be automatically uploaded to your configured S3 bucket, ensuring you maintain complete ownership and control over your content. Perfect for organizations requiring data sovereignty and custom storage policies.",
+        "连接你自己的 S3 存储桶，完全掌控你的数据存储。所有新的可分享链接上传都会自动上传到你配置的 S3 存储桶，确保你始终对自己的内容保持完整的所有权和控制权。非常适合需要数据主权和自定义存储策略的组织。"
+      ],
+      [
+        "Configure integrations to extend Cap's functionality and connect with third-party services.",
+        "配置集成以扩展 Cap 的功能，并与第三方服务连接。"
+      ],
+      [
+        "Google Drive stores new uploads in a private Cap folder in your Drive. Existing Cap-hosted and S3 videos keep using their current storage.",
+        "Google Drive 会把新上传存储在你 Drive 中的私有 Cap 文件夹内。现有的 Cap 托管和 S3 视频继续使用其当前存储。"
+      ],
+      [
+        "saving the automations store failed",
+        "保存自动化存储失败"
+      ],
+      [
+        "Rules are shared with the Cap CLI. Cap saves these rules but does not run automations yet.",
+        "这些规则与 Cap CLI 共享。Cap 会保存这些规则，但暂不运行自动化。"
+      ],
+      [
+        "Pick a template below to get started in one click, or build your own from scratch.",
+        "在下方选择一个模板即可一键开始，或从零开始自行构建。"
+      ],
+      [
+        "added an automation template",
+        "已添加自动化模板"
+      ],
+      [
+        "In the Cap CLI, this automation runs commands or sends network requests with your permissions. Only use values you trust.",
+        "在 Cap CLI 中，此自动化会以你的权限运行命令或发送网络请求。请仅使用你信任的值。"
+      ],
+      [
+        "Compatibility checked: this automation doesn't run in Cap yet. Saved rules remain available to the Cap CLI. No actions were run.",
+        "兼容性已检查：此自动化暂不在 Cap 中运行。已保存的规则仍可供 Cap CLI 使用。未运行任何操作。"
+      ]
+    ],
+    "upload/queue.rs": [
+      [
+        "Upload prepared",
+        "已准备上传"
+      ],
+      [
+        "Uploading",
+        "上传中"
+      ],
+      [
+        "Processing upload",
+        "正在处理上传"
+      ],
+      [
+        "Upload will retry",
+        "将重试上传"
+      ],
+      [
+        "Sign in to retry upload",
+        "登录以重试上传"
+      ],
+      [
+        "Upload needs attention",
+        "上传需要处理"
+      ],
+      [
+        "Upload paused",
+        "上传已暂停"
+      ],
+      [
+        "Uploaded",
+        "已上传"
+      ],
+      [
+        "Upload state cannot use a reparse point",
+        "上传状态不能使用重解析点"
+      ],
+      [
+        "Upload state must be a regular file",
+        "上传状态必须是常规文件"
+      ],
+      [
+        "Recording content cannot use a reparse point",
+        "录制内容不能使用重解析点"
+      ],
+      [
+        "Recording content must be a local directory",
+        "录制内容必须是本地目录"
+      ],
+      [
+        "The saved recording is empty",
+        "已保存的录制为空"
+      ],
+      [
+        "Upload state is too large",
+        "上传状态过大"
+      ],
+      [
+        "Upload state has an unsupported identity or version",
+        "上传状态包含不受支持的身份或版本"
+      ],
+      [
+        "Recording must be saved locally before its upload can resume",
+        "录制必须先保存到本地，才能恢复上传"
+      ],
+      [
+        "The pending upload identity is missing",
+        "缺少待处理上传的身份"
+      ],
+      [
+        "The recording upload identity changed",
+        "录制的上传身份已更改"
+      ],
+      [
+        "This older recording has no saved audio intent; review it before retrying",
+        "此较早的录制没有保存的音频意图；请在重试前检查"
+      ],
+      [
+        "Sign in to the original recording account and server to retry",
+        "请登录录制时的原账户和服务器以重试"
+      ],
+      [
+        "The recording has no saved audio intent",
+        "该录制没有保存的音频意图"
+      ],
+      [
+        "Sign in again to upload this recording",
+        "请重新登录以上传此录制"
+      ],
+      [
+        "Instant recording requires an upgraded plan",
+        "即时录制需要升级套餐"
+      ],
+      [
+        "The local recording changed during upload",
+        "本地录制在上传期间发生了更改"
+      ],
+      [
+        "Server did not return the uploaded object identity; local recording retained for retry",
+        "服务器未返回已上传对象的身份；本地录制已保留以供重试"
+      ],
+      [
+        "Upload artifact type changed",
+        "上传产物类型已更改"
+      ],
+      [
+        "The local recording changed after upload; it has been preserved",
+        "本地录制在上传后发生了更改；已将其保留"
+      ],
+      [
+        "Could not preserve upload handoff failure",
+        "无法保留上传交接失败状态"
+      ],
+      [
+        "Upload ownership is missing",
+        "缺少上传所有权"
+      ],
+      [
+        "The recording path changed before upload handoff",
+        "录制路径在上传交接前发生了更改"
+      ],
+      [
+        "The recording has no saved upload intent",
+        "该录制没有保存的上传意图"
+      ],
+      [
+        "The upload identity changed or was cancelled",
+        "上传身份已更改或被取消"
+      ],
+      [
+        "This recording is already queued for upload",
+        "此录制已在上传队列中"
+      ],
+      [
+        "Upload paused; the local recording is preserved",
+        "上传已暂停；本地录制已保留"
+      ],
+      [
+        "The upload worker failed; the local recording is preserved",
+        "上传工作线程失败；本地录制已保留"
+      ],
+      [
+        "Failed to persist upload retry state",
+        "无法保存上传重试状态"
+      ],
+      [
+        "Instant upload remains local",
+        "即时上传仍保留在本地"
+      ],
+      [
+        "Upload verification is missing",
+        "缺少上传验证"
+      ],
+      [
+        "Cloud verification timed out; the local recording is preserved",
+        "云验证超时；本地录制已保留"
+      ],
+      [
+        "Cloud verification failed; the saved recording will upload again",
+        "云验证失败；已保存的录制将重新上传"
+      ],
+      [
+        "Upload receipt is missing",
+        "缺少上传回执"
+      ],
+      [
+        "Upload has not been verified",
+        "上传尚未验证"
+      ],
+      [
+        "Upload state disappeared before verification",
+        "上传状态在验证前消失了"
+      ],
+      [
+        "Upload identity changed before verification",
+        "上传身份在验证前发生了更改"
+      ],
+      [
+        "Verified upload kept locally because cleanup failed",
+        "因清理失败，已验证的上传保留在本地"
+      ],
+      [
+        "Upload supervisor failed",
+        "上传监督进程失败"
+      ],
+      [
+        "Upload supervisor cleanup failed",
+        "上传监督进程清理失败"
+      ],
+      [
+        "Upload shutdown failed",
+        "上传关闭失败"
+      ],
+      [
+        "This older upload has no saved account and audio intent. Its local recording is preserved.",
+        "此较早的上传没有保存的账户和音频意图。其本地录制已保留。"
+      ],
+      [
+        "Upload ownership unavailable",
+        "上传所有权不可用"
+      ],
+      [
+        "Upload state needs attention",
+        "上传状态需要处理"
+      ],
+      [
+        "Upload resume deferred",
+        "上传恢复已推迟"
+      ],
+      [
+        "This recording has no resumable upload state",
+        "此录制没有可恢复的上传状态"
+      ]
+    ]
+  }
+}
