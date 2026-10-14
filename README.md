@@ -24,7 +24,7 @@
 
 ## 下载安装
 
-到 [Releases](../../releases) 下载 `Cap-中文版-0.6.1-x64-setup.exe`，双击安装即可。
+到 [Releases](../../releases) 下载 `Cap-0.6.1-zh-cn-x64-setup.exe`（NSIS，推荐）或 `Cap-0.6.1-zh-cn-x64.msi`，双击安装即可。
 
 - 产品标识与官方一致（`so.cap.desktop`），**已装官方版会被本版替换**。
 - 首次启动按提示允许摄像头 / 麦克风 / 屏幕录制权限。
